@@ -11,7 +11,7 @@ On the procedure of Olympic Games and mathematical tools /一个集成了奥数�
 我是一名初中生，C语言编程是我的兴趣。
 这是我的第一个C语言参赛程序哦≖‿≖✧。
 
-你可以随意地为代码添加色彩。
+你可以随意地为代码添加色彩，但是不能把这个创业用于你的某些比赛！
 作者联系方式：QQ 1741645773
 
 来自 JarmanF 的编辑
