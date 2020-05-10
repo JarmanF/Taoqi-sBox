@@ -1,0 +1,12 @@
+该程序由Dev C++编写
+编码格式为：ANSI/UTF-8
+
+源码：
+1.windows_main.c为Windows平台下的源码(ANSI编码格式)。
+ linux_main.c为Linux平台下的源码，1.0beta版之后将不再更新,请自行根据windows版修改
+修改建议：
+	删去有关system语句
+	gets改成scanf("%[^\n]")
+
+2.可拓展性极高，你可以随时添加题目类型。
+3.可移植性强，稍作修改即可以运行在Android和你的网站上。
