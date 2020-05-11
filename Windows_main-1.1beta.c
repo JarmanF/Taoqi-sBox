@@ -5,47 +5,47 @@
 #include <string.h>
 #define PAI 3.14159265358979323846
 
-//--Ö÷¿Ø Àà -- 
-void menu(); //Ö÷²Ëµ¥ 
-//--°ÂÊıÀà -- 
-void Games_menu(); //²Ëµ¥½çÃæ 
+//--ä¸»æ§ ç±» -- 
+void menu(); //ä¸»èœå• 
+//--å¥¥æ•°ç±» -- 
+void Games_menu(); //èœå•ç•Œé¢ 
 void Games_Choose();
-void Games_gess(); //²ÂÊı 
-void Games_Hanxin(); //º«ĞÅµã±ø 
-void Games_AP(); //µÈ²îÊıÁĞ
-void Games_GS(); //µÈ±ÈÊıÁĞ 
-void Games_Mean(); //Æ½¾ùÊıÓ¦ÓÃ
-void Games_gcd(); //×î´ó¹«Ô¼Êı 
-void Games_HenRabbit(); //¼¦ÍÃÍ¬Áı 
-void Games_boat(); //Á÷Ë®ÎÊÌâ
-void Games_chase(); //×·¼°ÎÊÌâ 
-void Games_lastnum(); //Î²ÊıµÄ¹æÂÉ 
-void Games_Somenum(); //ÕÒ¹æÂÉÌîÊı 
-void Games_Peach(); //ºï×Ó³ÔÌÒ
-void Games_Pro_thought(); //³ÌĞòË¼Ïë
-void Games_Yanghui(); //Ñî»ÔÈı½Ç
-void Games_Plant_tree(); //Ö²Ê÷ÎÊÌâ
-void Games_Magic_square(); //»Ã·½
-void Games_odd_even(); //ÆæÅ¼ĞÔÖÊÓ¦ÓÃ
+void Games_gess(); //çŒœæ•° 
+void Games_Hanxin(); //éŸ©ä¿¡ç‚¹å…µ 
+void Games_AP(); //ç­‰å·®æ•°åˆ—
+void Games_GS(); //ç­‰æ¯”æ•°åˆ— 
+void Games_Mean(); //å¹³å‡æ•°åº”ç”¨
+void Games_gcd(); //æœ€å¤§å…¬çº¦æ•° 
+void Games_HenRabbit(); //é¸¡å…”åŒç¬¼ 
+void Games_boat(); //æµæ°´é—®é¢˜
+void Games_chase(); //è¿½åŠé—®é¢˜ 
+void Games_lastnum(); //å°¾æ•°çš„è§„å¾‹ 
+void Games_Somenum(); //æ‰¾è§„å¾‹å¡«æ•° 
+void Games_Peach(); //çŒ´å­åƒæ¡ƒ
+void Games_Pro_thought(); //ç¨‹åºæ€æƒ³
+void Games_Yanghui(); //æ¨è¾‰ä¸‰è§’
+void Games_Plant_tree(); //æ¤æ ‘é—®é¢˜
+void Games_Magic_square(); //å¹»æ–¹
+void Games_odd_even(); //å¥‡å¶æ€§è´¨åº”ç”¨
 
-//--¹¤¾ßÀà -- 
-void Tools_menu(); //²Ëµ¥½çÃæ 
+//--å·¥å…·ç±» -- 
+void Tools_menu(); //èœå•ç•Œé¢ 
 void Tools_Choose();
-void Tools_S(); //Ãæ»ı¼ÆËã 
-void Tools_V(); //Ìå»ı¼ÆËã
-void Tools_Random(); //Éú³ÉËæ»úÊı 
-void Tools_AP(); //µÈ²îÊıÁĞÇóºÍ  
-void Tools_GS(); //µÈ±ÈÊıÁĞÇóºÍ 
-void Tools_Pass(); //ÎÄ×Ö¼Ó/½âÃÜ 
-void Tools_gcd(); //Çó×î´ó¹«Ô¼ÊıºÍ×îĞ¡¹«±¶Êı
-void Tools_computer(); //¼ÆËãÆ÷
-void Tools_Group(); //ÓĞÌõÀí´¦ÀíÊıÁĞ 
+void Tools_S(); //é¢ç§¯è®¡ç®— 
+void Tools_V(); //ä½“ç§¯è®¡ç®—
+void Tools_Random(); //ç”Ÿæˆéšæœºæ•° 
+void Tools_AP(); //ç­‰å·®æ•°åˆ—æ±‚å’Œ  
+void Tools_GS(); //ç­‰æ¯”æ•°åˆ—æ±‚å’Œ 
+void Tools_Pass(); //æ–‡å­—åŠ /è§£å¯† 
+void Tools_gcd(); //æ±‚æœ€å¤§å…¬çº¦æ•°å’Œæœ€å°å…¬å€æ•°
+void Tools_computer(); //è®¡ç®—å™¨
+void Tools_Group(); //æœ‰æ¡ç†å¤„ç†æ•°åˆ— 
 
 int main()
 {
 	int input;
-	menu(); //ÏÔÊ¾²Ëµ¥ 
-	scanf("%d",&input); //ÓÃ»§Ñ¡Ôñ¹¦ÄÜ 
+	menu(); //æ˜¾ç¤ºèœå• 
+	scanf("%d",&input); //ç”¨æˆ·é€‰æ‹©åŠŸèƒ½ 
 	while(input)
 	{
 		switch(input)
@@ -59,56 +59,56 @@ int main()
 			default:
 				break; 
 		}
-		menu(); /*Ö´ĞĞÍê¹¦ÄÜÔÙ´ÎÏÔÊ¾²Ëµ¥½çÃæ*/
+		menu(); /*æ‰§è¡Œå®ŒåŠŸèƒ½å†æ¬¡æ˜¾ç¤ºèœå•ç•Œé¢*/
 		scanf("%d",&input);
 	}
 }
-void menu() //Ö÷²Ëµ¥ 
+void menu() //ä¸»èœå• 
 {
 	system("cls");
 	system("color F2");
 	printf("\n\n\n\n\n");
-	printf("\t\t|-------------------Ö÷²Ëµ¥-----------------|\n");
-	printf("\t\t|\t 1.ÒæÖÇÌâ¿â                        |\n");
-	printf("\t\t|\t 2. ¹¤¾ß                           |\n");
-	printf("\t\t|\t 0. ÍË³ö                           |\n");
+	printf("\t\t|-------------------ä¸»èœå•-----------------|\n");
+	printf("\t\t|\t 1.ç›Šæ™ºé¢˜åº“                        |\n");
+	printf("\t\t|\t 2. å·¥å…·                           |\n");
+	printf("\t\t|\t 0. é€€å‡º                           |\n");
 	printf("\t\t|------------------------------------------|\n\n");
-	printf("\t\t\tÇëÑ¡Ôñ(0~2):");
+	printf("\t\t\tè¯·é€‰æ‹©(0~2):");
 }
 
-void Games_menu() //ÒæÖÇÌâ¿â²Ëµ¥ 
+void Games_menu() //ç›Šæ™ºé¢˜åº“èœå• 
 {
 	system("cls");
-	system("color F4"); //ÉèÖÃ ±³¾° ×ÖÌåÑÕÉ«
+	system("color F4"); //è®¾ç½® èƒŒæ™¯ å­—ä½“é¢œè‰²
 	printf("\n\n\n\n\n");
-	printf("\t\t|------------------ÒæÖÇÌâ¿â----------------|\n");
-	printf("\t\t|\t 1. ²ÂÊı                           |\n");
-	printf("\t\t|\t 2. º«ĞÅµã±ø                       |\n");
-	printf("\t\t|\t 3. µÈ²îÊıÁĞ                       |\n");
-	printf("\t\t|\t 4. µÈ±ÈÊıÁĞ                       |\n");
-	printf("\t\t|\t 5. Æ½¾ùÊıÓ¦ÓÃ                     |\n");
-	printf("\t\t|\t 6. ×î´ó¹«Ô¼Êı                     |\n");
-	printf("\t\t|\t 7. ¼¦ÍÃÍ¬ÁıÎÊÌâ                   |\n");
-	printf("\t\t|\t 8. Á÷Ë®ÎÊÌâ                       |\n");
-	printf("\t\t|\t 9. ×·¼°ÓëÏàÓö                     |\n");
-	printf("\t\t|\t 10.Î²ÊıµÄ¹æÂÉ                     |\n");
-	printf("\t\t|\t 11.ÕÒ¹æÂÉÌîÊı                     |\n");
-	printf("\t\t|\t 12.ºï×Ó³ÔÌÒ                       |\n");
-	printf("\t\t|\t 13.³ÌĞòË¼Ïë                       |\n");
-	printf("\t\t|\t 14.Ñî»ÔÈı½Ç                       |\n");
-	printf("\t\t|\t 15.Ö²Ê÷ÎÊÌâ                       |\n");
-	printf("\t\t|\t 16.»Ã·½                           |\n");
-	printf("\t\t|\t 17.ÆæÅ¼ĞÔÖÊ                       |\n");
-	printf("\t\t|\t 0.·µ»Ø                            |\n");
+	printf("\t\t|------------------ç›Šæ™ºé¢˜åº“----------------|\n");
+	printf("\t\t|\t 1. çŒœæ•°                           |\n");
+	printf("\t\t|\t 2. éŸ©ä¿¡ç‚¹å…µ                       |\n");
+	printf("\t\t|\t 3. ç­‰å·®æ•°åˆ—                       |\n");
+	printf("\t\t|\t 4. ç­‰æ¯”æ•°åˆ—                       |\n");
+	printf("\t\t|\t 5. å¹³å‡æ•°åº”ç”¨                     |\n");
+	printf("\t\t|\t 6. æœ€å¤§å…¬çº¦æ•°                     |\n");
+	printf("\t\t|\t 7. é¸¡å…”åŒç¬¼é—®é¢˜                   |\n");
+	printf("\t\t|\t 8. æµæ°´é—®é¢˜                       |\n");
+	printf("\t\t|\t 9. è¿½åŠä¸ç›¸é‡                     |\n");
+	printf("\t\t|\t 10.å°¾æ•°çš„è§„å¾‹                     |\n");
+	printf("\t\t|\t 11.æ‰¾è§„å¾‹å¡«æ•°                     |\n");
+	printf("\t\t|\t 12.çŒ´å­åƒæ¡ƒ                       |\n");
+	printf("\t\t|\t 13.ç¨‹åºæ€æƒ³                       |\n");
+	printf("\t\t|\t 14.æ¨è¾‰ä¸‰è§’                       |\n");
+	printf("\t\t|\t 15.æ¤æ ‘é—®é¢˜                       |\n");
+	printf("\t\t|\t 16.å¹»æ–¹                           |\n");
+	printf("\t\t|\t 17.å¥‡å¶æ€§è´¨                       |\n");
+	printf("\t\t|\t 0.è¿”å›                            |\n");
 	printf("\t\t|------------------------------------------|\n\n");
-	printf("\t\t\tÇëÑ¡Ôñ(0~16):");
+	printf("\t\t\tè¯·é€‰æ‹©(0~16):");
  } 
 void Games_Choose()
 {
 	int input;
- 	system("cls"); //»»Ò³ 
+ 	system("cls"); //æ¢é¡µ 
  	Games_menu();
-	scanf("%d",&input); //ÓÃ»§Ñ¡Ôñ 
+	scanf("%d",&input); //ç”¨æˆ·é€‰æ‹© 
 	while(input)
 	{
 		switch(input)
@@ -167,106 +167,106 @@ void Games_Choose()
 			default:break;
 		}
 		Games_menu();
-		scanf("%d",&input); //ÖØĞÂÏÔÊ¾ 
+		scanf("%d",&input); //é‡æ–°æ˜¾ç¤º 
 	 } 
 }
-//Ìâ¿â£º 
+//é¢˜åº“ï¼š 
 void Games_gess()
 {
-	puts("====================²ÂÊıÓÎÏ·====================");
+	puts("====================çŒœæ•°æ¸¸æˆ====================");
 	srand(time(0));
 	int i,number,times;
 	times=1;
-	number = rand() % 198 + 2; //Éú³ÉËæ»úÊı 
-	puts("\nÇë²ÂÒ»¸ö¶ş°ÙÒÔÄÚµÄÊı:");
+	number = rand() % 198 + 2; //ç”Ÿæˆéšæœºæ•° 
+	puts("\nè¯·çŒœä¸€ä¸ªäºŒç™¾ä»¥å†…çš„æ•°:");
 	scanf("%d",&i);
 	while(i!=number)
 	{
 		if(i>number)
 		{
-			puts(">>´óÁË");
+			puts(">>å¤§äº†");
 			times++; 
 			scanf("%d",&i);
 		}
 		else if(i<number)
 		{
-			puts(">>Ğ¡ÁË");
+			puts(">>å°äº†");
 			times++;
 			scanf("%d",&i);
 		}
 		else
 		{	break; }
 	 } 
-	 printf("Õâ¸öÊıÊÇ%d,Äã²ÂÁË%d´Î",number,times);
+	 printf("è¿™ä¸ªæ•°æ˜¯%d,ä½ çŒœäº†%dæ¬¡",number,times);
 	 printf("\n");
 	 system("pause");
 }
 void Games_Hanxin()
 {
-	puts("====================º«ĞÅµã±ø====================");
+	puts("====================éŸ©ä¿¡ç‚¹å…µ====================");
 	srand(time(0));
 	int inum,number,times;
 	times=1;
 	number = rand() % 199 + 2;
-	puts("º«ĞÅµÄ¾üÓªÈËÊıÔÚ200ÒÔÏÂ");
-	printf("Á½¸öÁ½¸öµØÊı£¬»¹Ê£%d¸ö\n",number%2);
-	printf("Èı¸öÈı¸öµØÊı£¬»¹Ê£%d¸ö\n",number%3);
-	printf("Îå¸öÎå¸öµØÊı£¬»¹Ê£%d¸ö\n",number%5); //¸ø³öÌõ¼ş 
-	printf("¾üÓªÀï¿ÉÄÜÓĞ¶àÉÙ±ø(8´Î»ú»á):");
+	puts("éŸ©ä¿¡çš„å†›è¥äººæ•°åœ¨200ä»¥ä¸‹");
+	printf("ä¸¤ä¸ªä¸¤ä¸ªåœ°æ•°ï¼Œè¿˜å‰©%dä¸ª\n",number%2);
+	printf("ä¸‰ä¸ªä¸‰ä¸ªåœ°æ•°ï¼Œè¿˜å‰©%dä¸ª\n",number%3);
+	printf("äº”ä¸ªäº”ä¸ªåœ°æ•°ï¼Œè¿˜å‰©%dä¸ª\n",number%5); //ç»™å‡ºæ¡ä»¶ 
+	printf("å†›è¥é‡Œå¯èƒ½æœ‰å¤šå°‘å…µ(8æ¬¡æœºä¼š):");
 	scanf("%d",&inum);
 	for(;times<=8;times++)
 	{
 		if(inum>number)
 		{
-			puts(">>¶àÁË"); 
+			puts(">>å¤šäº†"); 
 			scanf("%d",&inum);
 		}
 		else if(inum<number)
 		{
-			puts(">>ÉÙÁË");
+			puts(">>å°‘äº†");
 			scanf("%d",&inum);
 		}
 		else
-		{	puts("²Â¶ÔÁË£¡");break; }
+		{	puts("çŒœå¯¹äº†ï¼");break; }
 	 } 
-	 printf("¾üÓªÀïÓĞ%d¸ö±ø,Äã²ÂÁË%d´Î\n",number,times); 
+	 printf("å†›è¥é‡Œæœ‰%dä¸ªå…µ,ä½ çŒœäº†%dæ¬¡\n",number,times); 
 	 printf("\n");
 	 system("pause");
 }
 void Games_AP()
 {
-	puts("====================µÈ²îÊıÁĞ====================");
+	puts("====================ç­‰å·®æ•°åˆ—====================");
 	int x,y,z,inum,last,geti;
 	srand(time(0));
-	x= rand() % 5 + 1; //Ê×Ïî 
-	y= rand() % 7 + 1; //¹«²î 
-	z= rand() % 119 + 1; //ÏîÊı 
-	last=x+y*(z-1); //Ä©Ïî 
-	printf("\n%d + %d + %d +¡¤¡¤¡¤+%dµÄºÍÊÇ:",x,x+y,x+2*y,last); //¸ø³öÌõ¼ş 
-	for(;z>=1;z--) //ÇóºÍ 
+	x= rand() % 5 + 1; //é¦–é¡¹ 
+	y= rand() % 7 + 1; //å…¬å·® 
+	z= rand() % 119 + 1; //é¡¹æ•° 
+	last=x+y*(z-1); //æœ«é¡¹ 
+	printf("\n%d + %d + %d +Â·Â·Â·+%dçš„å’Œæ˜¯:",x,x+y,x+2*y,last); //ç»™å‡ºæ¡ä»¶ 
+	for(;z>=1;z--) //æ±‚å’Œ 
 	{
 		inum+=x;
 		x+=y;
 	}
 	scanf("%d",&geti);
 	if(geti==inum)
-	{	puts(">>Äã¶ÔÁË");	}
+	{	puts(">>ä½ å¯¹äº†");	}
 	else
-	{	puts(">>Äã´íÁË");	}
-	printf("ÕâÁĞµÈ²îÊıÁĞµÄºÍÎª:%d\n",inum);
+	{	puts(">>ä½ é”™äº†");	}
+	printf("è¿™åˆ—ç­‰å·®æ•°åˆ—çš„å’Œä¸º:%d\n",inum);
 	printf("\n");
 	system("pause");
 }
 void Games_GS()
 {
-	puts("====================µÈ±ÈÊıÁĞ====================");
+	puts("====================ç­‰æ¯”æ•°åˆ—====================");
 	srand(time(0));
 	int x,y,z,last,inum,geti;
-	x= rand() % 4 + 1; //Ê×Ïî 
-	y= rand() % 3 + 2; //¹«±È 
-	z= rand() % 10 + 4; //ÏîÊı 
-	last = x*pow(y , (z-1)); //Ä©Ïî 
-	printf("\n%d + %d +%d +¡¤¡¤¡¤+%dµÄºÍÊÇ:",x,x*y,x*y*y,last); //¸ø³öÌõ¼ş 
+	x= rand() % 4 + 1; //é¦–é¡¹ 
+	y= rand() % 3 + 2; //å…¬æ¯” 
+	z= rand() % 10 + 4; //é¡¹æ•° 
+	last = x*pow(y , (z-1)); //æœ«é¡¹ 
+	printf("\n%d + %d +%d +Â·Â·Â·+%dçš„å’Œæ˜¯:",x,x*y,x*y*y,last); //ç»™å‡ºæ¡ä»¶ 
 	for(;z>=1;z--)
 	{
 		inum+=x;
@@ -274,116 +274,116 @@ void Games_GS()
 	}
 	scanf("%d",&geti);
 	if(geti==inum)
-	{	puts(">>Äã¶ÔÁË");	}
+	{	puts(">>ä½ å¯¹äº†");	}
 	else
-	{	puts(">>Äã´íÁË");	}
-	printf("ÕâÁĞµÈ±ÈÊıÁĞµÄºÍÎª:%d\n",inum);
+	{	puts(">>ä½ é”™äº†");	}
+	printf("è¿™åˆ—ç­‰æ¯”æ•°åˆ—çš„å’Œä¸º:%d\n",inum);
 	printf("\n");
 	system("pause");
 }
 void Games_Mean()
 {
 	int input;
-	puts("====================Æ½¾ùÊıÓ¦ÓÃ===================");
-	printf("\n1.ÈëÃÅ\n2.ÆÕÍ¨\n3.À§ÄÑ\n0.ÍË³ö\nÇëÑ¡ÔñÄÑ¶È:");
+	puts("====================å¹³å‡æ•°åº”ç”¨===================");
+	printf("\n1.å…¥é—¨\n2.æ™®é€š\n3.å›°éš¾\n0.é€€å‡º\nè¯·é€‰æ‹©éš¾åº¦:");
 	scanf("%d",&input);
 	srand(time(0));
  
 	if(input==1)
 	{
-		//Éú³É³É¼¨ 
+		//ç”Ÿæˆæˆç»© 
 		int Ch,Math,En;
 		Ch = rand() %61 +40;
 		Math = rand() %61 +40;
 		En = rand() %61 +40;
-		//ÇóÆ½¾ù·Ö
+		//æ±‚å¹³å‡åˆ†
 		int mean;
 		mean = (Ch + Math + En) / 3;
-		//ÌáÎÊ
+		//æé—®
 		int inmean; 
-		printf("\nÌÔÆøµÄÓïÎÄ³É¼¨ÊÇ%d£¬\nÊıÑ§³É¼¨ÊÇ%d£¬\nÓ¢Óï³É¼¨ÊÇ%d£¬\n",Ch,Math,En);
-		printf("ÄÇÃ´ËûµÄÈı¿ÆÆ½¾ù·ÖÊÇ(±£ÁôÕûÊı)£º");
+		printf("\næ·˜æ°”çš„è¯­æ–‡æˆç»©æ˜¯%dï¼Œ\næ•°å­¦æˆç»©æ˜¯%dï¼Œ\nè‹±è¯­æˆç»©æ˜¯%dï¼Œ\n",Ch,Math,En);
+		printf("é‚£ä¹ˆä»–çš„ä¸‰ç§‘å¹³å‡åˆ†æ˜¯(ä¿ç•™æ•´æ•°)ï¼š");
 		scanf("%d",&inmean);
 		
 		if(inmean==mean)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nËûµÄÈı¿ÅÆ½¾ù·ÖÊÇ%d·Ö\n",mean);
+		printf("\nä»–çš„ä¸‰é¢—å¹³å‡åˆ†æ˜¯%dåˆ†\n",mean);
 	}
 	
 	else if(input==2)
 	{
-		//Éú³ÉËæ»úÌìÊıºÍÔË»õÁ¿
+		//ç”Ÿæˆéšæœºå¤©æ•°å’Œè¿è´§é‡
 		int day[2];
 		day[0] = rand() % 5 + 3;
 		day[1] = rand() % 6 + 3;
-		int day_add; //ÌìÊıºÍ 
+		int day_add; //å¤©æ•°å’Œ 
 		day_add = day[0] + day[1];
 		int goods[2];
 		goods[0] = rand() %1751 + 350;
 		goods[1] = rand() %1751 + 360;
-		//Çó³öÆ½¾ùÃ¿ÌìÔË»õ
+		//æ±‚å‡ºå¹³å‡æ¯å¤©è¿è´§
 		int mean;
 		mean = (day[0]*goods[0] + day[1]*goods[1]) / day_add;
-		//ÌáÎÊ
+		//æé—®
 		int inmean;
-		printf("\nÒ»¸öÎïÁ÷¹«Ë¾ÔÚ%dÌìÀï£¬Ç°%dÌìÆ½¾ùÃ¿ÌìÔË»õ%d¶Ö,\n",day_add,day[0],goods[0]);
-		printf("ºó%dÌìÆ½¾ùÃ¿ÌìÔË»õ%d¶Ö£¬\n",day[1],goods[1]);
-		printf("ÔòÕâ%dÌìÀï¹«Ë¾Æ½¾ùÃ¿ÌìÔË»õ¶àÉÙ¶Ö(±£ÁôÕûÊı)£º",day_add);
+		printf("\nä¸€ä¸ªç‰©æµå…¬å¸åœ¨%då¤©é‡Œï¼Œå‰%då¤©å¹³å‡æ¯å¤©è¿è´§%då¨,\n",day_add,day[0],goods[0]);
+		printf("å%då¤©å¹³å‡æ¯å¤©è¿è´§%då¨ï¼Œ\n",day[1],goods[1]);
+		printf("åˆ™è¿™%då¤©é‡Œå…¬å¸å¹³å‡æ¯å¤©è¿è´§å¤šå°‘å¨(ä¿ç•™æ•´æ•°)ï¼š",day_add);
 		scanf("%d",&inmean);
 		if(inmean==mean)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nÆ½¾ùÃ¿ÌìÔË»õ%d¶Ö\n",mean);
+		printf("\nå¹³å‡æ¯å¤©è¿è´§%då¨\n",mean);
 	}
 	
 	else if(input==3)
 	{
 		int count;
-		//Éú³ÉÎå¸öÊı
+		//ç”Ÿæˆäº”ä¸ªæ•°
 		int num[5];
 		for(count = 0;count < 5;count++)
 		{	num[count] = rand() % 151 + 50; 	} 
 		
-		//Éú³É4ÖÖÆ½¾ùÊı
+		//ç”Ÿæˆ4ç§å¹³å‡æ•°
 		float mean[4];
 		for(count = 0; count < 4;count++) //1.ABCD 
 		{	mean[0] += num[count];	}
-		mean[0] /= 4.0; //ABCDµÄÆ½¾ùÊı 
-		//2.A¡¢C¡¢D¡¢E µÄÆ½¾ùÊı
-		for(count=0;count<5;count++) //ABCDEµÄºÍ 
+		mean[0] /= 4.0; //ABCDçš„å¹³å‡æ•° 
+		//2.Aã€Cã€Dã€E çš„å¹³å‡æ•°
+		for(count=0;count<5;count++) //ABCDEçš„å’Œ 
 		{	mean[1] += num[count];	} 
-		mean[1] -= num[1]; //ACDEµÄºÍ 
-		mean[2] = mean[1] - num[2]; //ÎªµÚÈı¸öÆ½¾ùÊı×ö×¼±¸ ADEµÄºÍ 
-		mean[1] /= 4.0; //ACDEµÄÆ½¾ùÊı;
-		//3.ADEµÄÆ½¾ùÊı
+		mean[1] -= num[1]; //ACDEçš„å’Œ 
+		mean[2] = mean[1] - num[2]; //ä¸ºç¬¬ä¸‰ä¸ªå¹³å‡æ•°åšå‡†å¤‡ ADEçš„å’Œ 
+		mean[1] /= 4.0; //ACDEçš„å¹³å‡æ•°;
+		//3.ADEçš„å¹³å‡æ•°
 		mean[2] /= 3.0;
-		//4.BDµÄÆ½¾ùÊı 
+		//4.BDçš„å¹³å‡æ•° 
 		mean[3] = (num[1] + num[3]) / 2.0;
 		
-		//ÌáÎÊ 
+		//æé—® 
 		int A;
-		printf("\nÓĞA¡¢B¡¢C¡¢D¡¢E Îå¸öÊı£¬\nÆäÖĞA¡¢B¡¢C¡¢D µÄÆ½¾ùÊıÊÇ%f£¬\n",mean[0]);
-		printf("A¡¢C¡¢D¡¢EµÄÆ½¾ùÊıÊÇ %f,\nA¡¢D¡¢E µÄÆ½¾ùÊıÊÇ %f,\nB¡¢DµÄÆ½¾ùÊıÊÇ %f¡£\n",mean[1],mean[2],mean[3]);
-		printf("\nÄÇÃ´ A µÄÖµÎª(±£ÁôÕûÊı):");
+		printf("\næœ‰Aã€Bã€Cã€Dã€E äº”ä¸ªæ•°ï¼Œ\nå…¶ä¸­Aã€Bã€Cã€D çš„å¹³å‡æ•°æ˜¯%fï¼Œ\n",mean[0]);
+		printf("Aã€Cã€Dã€Eçš„å¹³å‡æ•°æ˜¯ %f,\nAã€Dã€E çš„å¹³å‡æ•°æ˜¯ %f,\nBã€Dçš„å¹³å‡æ•°æ˜¯ %fã€‚\n",mean[1],mean[2],mean[3]);
+		printf("\né‚£ä¹ˆ A çš„å€¼ä¸º(ä¿ç•™æ•´æ•°):");
 		scanf("%d",&A);
 		if(A==num[0])
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
 		printf("\nA = %d\n",num[0]);
 	}
@@ -393,14 +393,14 @@ void Games_Mean()
 }
 void Games_gcd()
 {
-	puts("====================×î´ó¹«Ô¼Êı====================");
+	puts("====================æœ€å¤§å…¬çº¦æ•°====================");
 	int a,b,t,geti;
 	srand(time(0));
 	a = rand() %499 + 3;
 	b = rand() %499 +2;
-	printf("ÇëÎÊ%dÓë%dµÄ×î´ó¹«Ô¼ÊıÊÇ:",a,b); //¸ø³öÌõ¼ş 
+	printf("è¯·é—®%dä¸%dçš„æœ€å¤§å…¬çº¦æ•°æ˜¯:",a,b); //ç»™å‡ºæ¡ä»¶ 
 	scanf("%d",&geti);
-	while(b!=0) //Õ·×ªÏà³ı·¨ 
+	while(b!=0) //è¾—è½¬ç›¸é™¤æ³• 
 	{
 		t=a%b;
 		a=b;
@@ -408,124 +408,124 @@ void Games_gcd()
 	 }
 	if(geti==a)
 	{
-		puts(">>¶ÔÁË");
+		puts(">>å¯¹äº†");
 	}
 	else
 	{
-		puts(">>´íÁË");
+		puts(">>é”™äº†");
 	}
-	printf("ËüÃÇµÄ×î´ó¹«Ô¼ÊıÎª:%d\n",a);
+	printf("å®ƒä»¬çš„æœ€å¤§å…¬çº¦æ•°ä¸º:%d\n",a);
 	printf("\n");
 	system("pause");
 }
 void Games_HenRabbit()
 {
 	int input;
-	puts("====================¼¦ÍÃÍ¬Áı====================");
-	printf("\n1.ÈëÃÅ\n2.ÆÕÍ¨\n3.À§ÄÑ\n0.ÍË³ö\nÇëÑ¡ÔñÄÑ¶È:");
+	puts("====================é¸¡å…”åŒç¬¼====================");
+	printf("\n1.å…¥é—¨\n2.æ™®é€š\n3.å›°éš¾\n0.é€€å‡º\nè¯·é€‰æ‹©éš¾åº¦:");
 	scanf("%d",&input);
 	srand(time(0));
 	if(input==1)
 	{
-		int hens,rabbits; //¼¦¡¢ÍÃ×Ó 
-		int inputh,inputr; //ÓÃ»§ÊäÈëµÄ´ğ°¸£º¼¦¡¢ÍÃ×Ó 
-		//Éú³ÉËæ»úÊı 
+		int hens,rabbits; //é¸¡ã€å…”å­ 
+		int inputh,inputr; //ç”¨æˆ·è¾“å…¥çš„ç­”æ¡ˆï¼šé¸¡ã€å…”å­ 
+		//ç”Ÿæˆéšæœºæ•° 
 		hens= rand() % 65 + 5;
 		rabbits= rand() % 65 + 4;
-		printf("Ò»¸öÁı×ÓÀïÒ»¹²ÓĞ%dÖ»¼¦ºÍÍÃ×Ó£¬\nÒ»¹²ÓĞ%dÌõÍÈ\n",hens+rabbits,hens*2+rabbits*4);
-		printf("ÄÇÃ´·Ö±ğÓĞ¶àÉÙÖ»ÍÃ×ÓºÍ¼¦:"); 
+		printf("ä¸€ä¸ªç¬¼å­é‡Œä¸€å…±æœ‰%dåªé¸¡å’Œå…”å­ï¼Œ\nä¸€å…±æœ‰%dæ¡è…¿\n",hens+rabbits,hens*2+rabbits*4);
+		printf("é‚£ä¹ˆåˆ†åˆ«æœ‰å¤šå°‘åªå…”å­å’Œé¸¡:"); 
 		scanf("%d %d",&inputr,&inputh);
 		if(inputr==rabbits&&inputh==hens)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nÓĞ%dÖ»ÍÃ×Ó£¬ÓĞ%dÖ»¼¦",rabbits,hens);
+		printf("\næœ‰%dåªå…”å­ï¼Œæœ‰%dåªé¸¡",rabbits,hens);
 	}
 	else if(input==2)
 	{
-		int zhizhu,qingting,chan; //Ö©Öë¡¢òßòÑ¡¢²õ 
-		int inzhi,inqing,inchan; //ÓÃ»§ÊäÈëµÄÖ©Öë¡¢òßòÑ¡¢²õ  
-		//Éú³ÉËæ»úÊı 
+		int zhizhu,qingting,chan; //èœ˜è››ã€èœ»èœ“ã€è‰ 
+		int inzhi,inqing,inchan; //ç”¨æˆ·è¾“å…¥çš„èœ˜è››ã€èœ»èœ“ã€è‰  
+		//ç”Ÿæˆéšæœºæ•° 
 		zhizhu = rand() % 28 + 2;
 		qingting = rand() % 26 + 4;
 		chan = rand() % 17 + 3;
-		//¸ø³öÌõ¼ş£º 
-		printf("Ö©ÖëÓĞ8ÌõÍÈ,\nòßòÑÓĞ6ÌõÍÈºÍ2¶Ô³á°ò,\n²õÓĞ6ÌõÍÈºÍ1¶Ô³á°ò,\n");
-		printf("\nÏÖ¹²ÓĞÀ¥³æ%dÖ»,ËüÃÇ¹²ÓĞ%dÌõÍÈºÍ%d¶Ô³á°ò¡£\n",zhizhu+qingting+chan,zhizhu*8+(qingting+chan)*6,qingting*2+chan);
-		printf("ÄÇÃ´·Ö±ğÓĞÖ©Öë¡¢òßòÑ¡¢²õ¶àÉÙÖ»:");
+		//ç»™å‡ºæ¡ä»¶ï¼š 
+		printf("èœ˜è››æœ‰8æ¡è…¿,\nèœ»èœ“æœ‰6æ¡è…¿å’Œ2å¯¹ç¿…è†€,\nè‰æœ‰6æ¡è…¿å’Œ1å¯¹ç¿…è†€,\n");
+		printf("\nç°å…±æœ‰æ˜†è™«%dåª,å®ƒä»¬å…±æœ‰%dæ¡è…¿å’Œ%då¯¹ç¿…è†€ã€‚\n",zhizhu+qingting+chan,zhizhu*8+(qingting+chan)*6,qingting*2+chan);
+		printf("é‚£ä¹ˆåˆ†åˆ«æœ‰èœ˜è››ã€èœ»èœ“ã€è‰å¤šå°‘åª:");
 		scanf("%d %d %d",&inzhi,&inqing,&inchan);
 		if(inzhi==zhizhu && inqing==qingting && inchan==chan)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nÓĞ%dÖ»Ö©Öë£¬%dÖ»òßòÑ£¬%dÖ»²õ\n",zhizhu,qingting,chan);
+		printf("\næœ‰%dåªèœ˜è››ï¼Œ%dåªèœ»èœ“ï¼Œ%dåªè‰\n",zhizhu,qingting,chan);
 	}
 	else if(input==3)
 	{
-		int zhizhu,qingting,chan,deformitier; //Ö©Öë¡¢òßòÑ¡¢²õ¡¢»ûĞÎÖÖ 
-		//Éú³ÉËæ»úÊı 
+		int zhizhu,qingting,chan,deformitier; //èœ˜è››ã€èœ»èœ“ã€è‰ã€ç•¸å½¢ç§ 
+		//ç”Ÿæˆéšæœºæ•° 
 		zhizhu = rand() % 38 + 2;
 		qingting = rand() % 36 + 4;
 		chan = rand() % 27 + 3;
 		deformitier = rand() % 15 + 5;
-		//ËµÃ÷Ìõ¼ş 
-		printf("\nÓĞËÄÖÖÀ¥³æ:\n");
-		printf("Ö©ÖëÓĞ8ÌõÍÈ,\nòßòÑÓĞ6ÌõÍÈºÍ2¶Ô³á°ò,\n²õÓĞ6ÌõÍÈºÍ1¶Ô³á°òÇÒÉíÉÏÓĞ2µÀ±ê¼Ç,\n»ûĞÎÖÖÓĞ6ÌõÍÈºÍ1¶Ô³á°òÇÒÉíÉÏÓĞ3µÀ±ê¼Ç\n");
-		//¸ø³ö¾ßÌåÌõ¼ş 
+		//è¯´æ˜æ¡ä»¶ 
+		printf("\næœ‰å››ç§æ˜†è™«:\n");
+		printf("èœ˜è››æœ‰8æ¡è…¿,\nèœ»èœ“æœ‰6æ¡è…¿å’Œ2å¯¹ç¿…è†€,\nè‰æœ‰6æ¡è…¿å’Œ1å¯¹ç¿…è†€ä¸”èº«ä¸Šæœ‰2é“æ ‡è®°,\nç•¸å½¢ç§æœ‰6æ¡è…¿å’Œ1å¯¹ç¿…è†€ä¸”èº«ä¸Šæœ‰3é“æ ‡è®°\n");
+		//ç»™å‡ºå…·ä½“æ¡ä»¶ 
 		int all,leg,chi,biao;
-		all = zhizhu + qingting + chan + deformitier; //ËùÓĞÀ¥³æ×ÜºÍ 
-		leg = zhizhu*8 + (qingting+chan+deformitier)*6;//ËùÓĞÀ¥³æµÄ×ÜÍÈÊı 
-		chi = qingting*2 + chan + deformitier; //ËùÓĞÀ¥³æµÄ³á°ò 
-		biao = chan*2+deformitier*3; //ËùÓĞÀ¥³æµÄ±ê¼Ç 
-		printf("\nÏÖÔÚÓĞ%dÖ»À¥³æ£¬ËüÃÇ¹²ÓĞ%d¶Ô³á°ò£¬%dÌõÍÈºÍ%dµÀ±ê¼Ç",all,chi,leg,biao);
-		//Ìá³öÎÊÌâ
-		printf(",\nÄÇÃ´·Ö±ğÓĞÖ©Öë¡¢òßòÑ¡¢²õ¡¢»ûĞÎÖÖ¶àÉÙÖ»:");
-		//ÓÃ»§ÊäÈë 
-		int inzhi,inqing,inchan,indefor;	//ÓÃ»§ÊäÈëµÄÖ©Öë¡¢òßòÑ¡¢²õ¡¢»ûĞÎÖÖµÄÖ»Êı 
+		all = zhizhu + qingting + chan + deformitier; //æ‰€æœ‰æ˜†è™«æ€»å’Œ 
+		leg = zhizhu*8 + (qingting+chan+deformitier)*6;//æ‰€æœ‰æ˜†è™«çš„æ€»è…¿æ•° 
+		chi = qingting*2 + chan + deformitier; //æ‰€æœ‰æ˜†è™«çš„ç¿…è†€ 
+		biao = chan*2+deformitier*3; //æ‰€æœ‰æ˜†è™«çš„æ ‡è®° 
+		printf("\nç°åœ¨æœ‰%dåªæ˜†è™«ï¼Œå®ƒä»¬å…±æœ‰%då¯¹ç¿…è†€ï¼Œ%dæ¡è…¿å’Œ%dé“æ ‡è®°",all,chi,leg,biao);
+		//æå‡ºé—®é¢˜
+		printf(",\né‚£ä¹ˆåˆ†åˆ«æœ‰èœ˜è››ã€èœ»èœ“ã€è‰ã€ç•¸å½¢ç§å¤šå°‘åª:");
+		//ç”¨æˆ·è¾“å…¥ 
+		int inzhi,inqing,inchan,indefor;	//ç”¨æˆ·è¾“å…¥çš„èœ˜è››ã€èœ»èœ“ã€è‰ã€ç•¸å½¢ç§çš„åªæ•° 
 		scanf("%d %d %d %d",&inzhi,&inqing,&inchan,&indefor);
-		//×ö³öÅĞ¶Ï 
+		//åšå‡ºåˆ¤æ–­ 
 		if(inzhi==zhizhu && inqing==qingting && inchan==chan && indefor==deformitier)
 		{
-			puts(">>¹§Ï²Äã×ö¶ÔÁË");
+			puts(">>æ­å–œä½ åšå¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nÓĞ%dÖ»Ö©Öë£¬%dÖ»òßòÑ,%dÖ»²õºÍ%dÖ»»ûĞÎÖÖ\n",zhizhu,qingting,chan,deformitier);
+		printf("\næœ‰%dåªèœ˜è››ï¼Œ%dåªèœ»èœ“,%dåªè‰å’Œ%dåªç•¸å½¢ç§\n",zhizhu,qingting,chan,deformitier);
 	}
 	printf("\n");
 	system("pause");
 }
 void Games_boat()
 {
-	puts("====================Á÷Ë®ÎÊÌâ====================");
+	puts("====================æµæ°´é—®é¢˜====================");
 	int speed,water_s,hour,roat,inhour;
 	srand(time(0));
-	speed = rand() % 75 + 15; //´¬ËÙ 
-	water_s = rand() % 5 + 1; //Ë®ËÙ 
-	hour = rand() % 11 + 1; //ĞĞÊ»Ê±¼ä 
-	roat = (speed+water_s)*hour; //Ë³Ë®Â·³Ì
-	/*ÌáÎÊ*/
-	printf("\nÒ»ËÒ´¬µÄ¾²Ë®ËÙ¶ÈÊÇ %d km/h,\nÒªÔÚ %d km/hµÄË®ÖĞË³Ë®º½ĞĞ%dÇ§Ã×£¬ĞèÒª¶àÉÙĞ¡Ê±:",speed,water_s,roat);
+	speed = rand() % 75 + 15; //èˆ¹é€Ÿ 
+	water_s = rand() % 5 + 1; //æ°´é€Ÿ 
+	hour = rand() % 11 + 1; //è¡Œé©¶æ—¶é—´ 
+	roat = (speed+water_s)*hour; //é¡ºæ°´è·¯ç¨‹
+	/*æé—®*/
+	printf("\nä¸€è‰˜èˆ¹çš„é™æ°´é€Ÿåº¦æ˜¯ %d km/h,\nè¦åœ¨ %d km/hçš„æ°´ä¸­é¡ºæ°´èˆªè¡Œ%dåƒç±³ï¼Œéœ€è¦å¤šå°‘å°æ—¶:",speed,water_s,roat);
 	scanf("%d",&inhour);
 	if(inhour==hour)
 	{
-		puts(">>Äã¶ÔÁË");
+		puts(">>ä½ å¯¹äº†");
 	}
 	else
 	{
-		puts(">>Äã´íÁË");
+		puts(">>ä½ é”™äº†");
 	}
-	printf("ĞèÒª%dĞ¡Ê±\n",hour);
+	printf("éœ€è¦%då°æ—¶\n",hour);
 	
 	printf("\n");
 	system("pause");
@@ -533,134 +533,134 @@ void Games_boat()
 void Games_chase()
 {
 	srand(time(0));
-	puts("====================×·¼°ÓëÏàÓö====================");
+	puts("====================è¿½åŠä¸ç›¸é‡====================");
 	int input;
-	printf("\n1.ÈëÃÅ\n2.ÆÕÍ¨\n3.À§ÄÑ\n0.ÍË³ö\nÇëÑ¡ÔñÄÑ¶È:");
+	printf("\n1.å…¥é—¨\n2.æ™®é€š\n3.å›°éš¾\n0.é€€å‡º\nè¯·é€‰æ‹©éš¾åº¦:");
 	scanf("%d",&input);
 	if(input==1)
 	{
 		int chase,run,chase_time;
-		chase = rand() % 60 + 61; //ËÙ¶È½Ï¿ìÕß 
-		run = rand() % 50 + 10;  //ËÙ¶È½ÏÂıÕß 
-		chase_time = rand() % 12 + 2; //×·»÷Ê±¼ä 
+		chase = rand() % 60 + 61; //é€Ÿåº¦è¾ƒå¿«è€… 
+		run = rand() % 50 + 10;  //é€Ÿåº¦è¾ƒæ…¢è€… 
+		chase_time = rand() % 12 + 2; //è¿½å‡»æ—¶é—´ 
 		int roat;
-		roat = chase_time*(chase-run); //Â·³Ì 
-		printf("\nA¡¢BÁ½µØÏà¾à%dÇ§Ã×£¬¼×³µÔÚAµØ£¬ÒÒ³µÔÚBµØ\nÈô¼×Ê±ËÙ%dÇ§Ã×,ÒÒÊ±ËÙ%dÇ§Ã×\nÈôËûÃÇÍ¬Ïò¶øĞĞ,Ôò¼××·ÒÒĞè¶àÉÙĞ¡Ê±(±£ÁôÕûÊı):",roat,chase,run);
-		int inctime; //ÓÃ»§ÊäÈë£º×·¼°Ê±¼ä 
+		roat = chase_time*(chase-run); //è·¯ç¨‹ 
+		printf("\nAã€Bä¸¤åœ°ç›¸è·%dåƒç±³ï¼Œç”²è½¦åœ¨Aåœ°ï¼Œä¹™è½¦åœ¨Båœ°\nè‹¥ç”²æ—¶é€Ÿ%dåƒç±³,ä¹™æ—¶é€Ÿ%dåƒç±³\nè‹¥ä»–ä»¬åŒå‘è€Œè¡Œ,åˆ™ç”²è¿½ä¹™éœ€å¤šå°‘å°æ—¶(ä¿ç•™æ•´æ•°):",roat,chase,run);
+		int inctime; //ç”¨æˆ·è¾“å…¥ï¼šè¿½åŠæ—¶é—´ 
 		scanf("%d",&inctime);
 		if(inctime==chase_time)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nĞèÒª%dĞ¡Ê±\n",chase_time);
+		printf("\néœ€è¦%då°æ—¶\n",chase_time);
 		
-		//ÔÙ´ÎÌáÎÊ 
+		//å†æ¬¡æé—® 
 		int meet_time;
-		meet_time = roat/(chase+run); //ÏàÓöÊ±¼ä 
-		printf("\nÄÇÃ´£¬ÈôËûÃÇÏàÏò¶øĞĞ£¬ÔòĞè¶àÉÙĞ¡Ê±(±£ÁôÕûÊı):");
+		meet_time = roat/(chase+run); //ç›¸é‡æ—¶é—´ 
+		printf("\né‚£ä¹ˆï¼Œè‹¥ä»–ä»¬ç›¸å‘è€Œè¡Œï¼Œåˆ™éœ€å¤šå°‘å°æ—¶(ä¿ç•™æ•´æ•°):");
 		int inmtime;
 		scanf("%d",&inmtime);
 		if(inmtime==meet_time)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nĞèÒª%dĞ¡Ê±\n",meet_time);
+		printf("\néœ€è¦%då°æ—¶\n",meet_time);
 	}
 	else if(input==2)
 	{
 		int boy,girl,dog,time;
-		girl = rand() % 12 + 4; //Ğ¡ºìËÙ¶È 
-		boy = girl*2-1; //Ğ¡Ã÷ËÙ¶È 
-		dog = rand() % 7 + 3; //Ğ¡¹·ËÙ¶È 
-		time = rand() % 25 + 5; //Ê±¼ä 
+		girl = rand() % 12 + 4; //å°çº¢é€Ÿåº¦ 
+		boy = girl*2-1; //å°æ˜é€Ÿåº¦ 
+		dog = rand() % 7 + 3; //å°ç‹—é€Ÿåº¦ 
+		time = rand() % 25 + 5; //æ—¶é—´ 
 		int roat;
-		roat = (boy+girl)*time; //Â·³¤ 
-		printf("\nĞ¡Ã÷ºÍĞ¡ºìÔÚ%dÃ×µÄÂ·ÉÏÏàÏò¶øĞĞ£¬\nĞ¡Ã÷³ö·¢Ê±·ÅÁËÒ»Ìõ¹·£¬ÔÚĞ¡Ã÷ºÍĞ¡ºìÖ®¼äÀ´»ØÅÜ£¬\nÖ±µ½Ğ¡Ã÷ºÍĞ¡ºìÏàÓöºó²ÅÍ£Ö¹£¬\n",roat);
-		printf("ÒÑÖªĞ¡Ã÷¡¢Ğ¡ºìºÍĞ¡¹·µÄËÙ¶È·Ö±ğÎª:%dm/s¡¢%dm/s¡¢%dm/s\nÄÇÃ´¹·Ò»¹²ÅÜÁË¶àÉÙÃ×:",boy,girl,dog);
-		int indogroat; //ÓÃ»§ÊäÈë£º¹·ÅÜµÄÂ·³Ì 
+		roat = (boy+girl)*time; //è·¯é•¿ 
+		printf("\nå°æ˜å’Œå°çº¢åœ¨%dç±³çš„è·¯ä¸Šç›¸å‘è€Œè¡Œï¼Œ\nå°æ˜å‡ºå‘æ—¶æ”¾äº†ä¸€æ¡ç‹—ï¼Œåœ¨å°æ˜å’Œå°çº¢ä¹‹é—´æ¥å›è·‘ï¼Œ\nç›´åˆ°å°æ˜å’Œå°çº¢ç›¸é‡åæ‰åœæ­¢ï¼Œ\n",roat);
+		printf("å·²çŸ¥å°æ˜ã€å°çº¢å’Œå°ç‹—çš„é€Ÿåº¦åˆ†åˆ«ä¸º:%dm/sã€%dm/sã€%dm/s\né‚£ä¹ˆç‹—ä¸€å…±è·‘äº†å¤šå°‘ç±³:",boy,girl,dog);
+		int indogroat; //ç”¨æˆ·è¾“å…¥ï¼šç‹—è·‘çš„è·¯ç¨‹ 
 		scanf("%d",&indogroat);
 		int dogroat;
-		dogroat = time*dog; //¼ÆËã¹·ÅÜµÄÂ·³Ì 
+		dogroat = time*dog; //è®¡ç®—ç‹—è·‘çš„è·¯ç¨‹ 
 		if(indogroat==dogroat)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		 }
 		else
 		{
-			puts(">>Äã´íÁË") ;
+			puts(">>ä½ é”™äº†") ;
 		}
-		printf("ÕâÖ»¹·Ò»¹²ÅÜÁË%dÃ×",dogroat);
+		printf("è¿™åªç‹—ä¸€å…±è·‘äº†%dç±³",dogroat);
 	}
 
 	else if(input==3)
 	{
-		int Jia,Yi,Bing; //¼×¡¢ÒÒ¡¢±û 
-		//ÈıÈËµÄËÙ¶È 
+		int Jia,Yi,Bing; //ç”²ã€ä¹™ã€ä¸™ 
+		//ä¸‰äººçš„é€Ÿåº¦ 
 		Jia = 30;
 		Yi = 20;
 		Bing = (rand()%5+1)*5; 
 		
-		int meet; //ÏàÓö´ÎÊı 
+		int meet; //ç›¸é‡æ¬¡æ•° 
 		meet = (rand()%13 + 2);
 		
-		int meettime,more; //ÏàÓöÊ±¼ä¡¢±û±È¼×¶àĞĞÂ·³Ì 
+		int meettime,more; //ç›¸é‡æ—¶é—´ã€ä¸™æ¯”ç”²å¤šè¡Œè·¯ç¨‹ 
 		meettime = 12 +  24*(meet-1);
 		more = Bing*meettime;
 		
-		//Ìá³öÎÊÌâ 
-		printf("\nÔÚÒ»¸ö1200Ã×µÄ»·ĞÎÅÜµÀÉÏ£¬¼×¡¢ÒÒ¸÷ÔÚÅÜµÀµÄÒ»²à£¬Ïà¾à600Ã×¡£\n");
-		printf("±ûÓë¼×ÔÚÍ¬Ò»µØµãÆïĞĞ£¬ÈıÈËÍ¬Ê±³ö·¢£¬\n");
-		printf("Èô¼×µÄËÙ¶ÈÊÇ%d m/s,ÒÒµÄËÙ¶ÈÊÇ%d m/s,±û±È¼×¿ì%d m/s £¬\n",Jia,Yi,Bing);
-		printf("Èô±û±È¼×¶àĞĞÁË%dÃ×ºó£¬ÈıÈË¶¼Í£ÏÂ£¬\n´ËÊ±¼×ÓëÒÒÏàÓöÁË¼¸´Î£º",more);
+		//æå‡ºé—®é¢˜ 
+		printf("\nåœ¨ä¸€ä¸ª1200ç±³çš„ç¯å½¢è·‘é“ä¸Šï¼Œç”²ã€ä¹™å„åœ¨è·‘é“çš„ä¸€ä¾§ï¼Œç›¸è·600ç±³ã€‚\n");
+		printf("ä¸™ä¸ç”²åœ¨åŒä¸€åœ°ç‚¹éª‘è¡Œï¼Œä¸‰äººåŒæ—¶å‡ºå‘ï¼Œ\n");
+		printf("è‹¥ç”²çš„é€Ÿåº¦æ˜¯%d m/s,ä¹™çš„é€Ÿåº¦æ˜¯%d m/s,ä¸™æ¯”ç”²å¿«%d m/s ï¼Œ\n",Jia,Yi,Bing);
+		printf("è‹¥ä¸™æ¯”ç”²å¤šè¡Œäº†%dç±³åï¼Œä¸‰äººéƒ½åœä¸‹ï¼Œ\næ­¤æ—¶ç”²ä¸ä¹™ç›¸é‡äº†å‡ æ¬¡ï¼š",more);
 		
 		int inmeet;
 		scanf("%d",&inmeet);
 		if(inmeet==meet)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nËûÃÇÏàÓöÁË%d´Î\n",meet);
+		printf("\nä»–ä»¬ç›¸é‡äº†%dæ¬¡\n",meet);
 	}
 	printf("\n");
 	system("pause");
 }
 void Games_lastnum()
 {
-	puts("====================Î²ÊıµÄ¹æÂÉ====================");
+	puts("====================å°¾æ•°çš„è§„å¾‹====================");
 	int num,inum,lastnum,inlast;
 	srand(time(0));
-	num = rand() %8 + 2; //µ×Êı 
-	inum = rand() %39 + 2; //Ö¸Êı
-	//ÌáÎÊ 
-	printf("\nÒ»¸öÊıµÄ¸öÎ»Êı³ÆÎªËüµÄÎ²Êı¡£\n");
-	printf("Ôò%dµÄ%d´Î·½µÄÎ²ÊıÊÇ:",num,inum);
+	num = rand() %8 + 2; //åº•æ•° 
+	inum = rand() %39 + 2; //æŒ‡æ•°
+	//æé—® 
+	printf("\nä¸€ä¸ªæ•°çš„ä¸ªä½æ•°ç§°ä¸ºå®ƒçš„å°¾æ•°ã€‚\n");
+	printf("åˆ™%dçš„%dæ¬¡æ–¹çš„å°¾æ•°æ˜¯:",num,inum);
 	scanf("%d",&inlast);
 	
 	num = pow(num,inum);
-	lastnum = num%10; //¼ÆËãÎ»Êı 
+	lastnum = num%10; //è®¡ç®—ä½æ•° 
 	
-	//ÅĞ¶Ï 
+	//åˆ¤æ–­ 
 	if(inlast == lastnum)
 	{
-		puts(">>Äã¶ÔÁË");
+		puts(">>ä½ å¯¹äº†");
 	}
 	else
 	{
-		puts(">>Äã´íÁË");
+		puts(">>ä½ é”™äº†");
 	}
-	printf("\nËüµÄÎ²ÊıÊÇ%d\n",lastnum);
+	printf("\nå®ƒçš„å°¾æ•°æ˜¯%d\n",lastnum);
 	
 	printf("\n");
 	system("pause");
@@ -668,86 +668,86 @@ void Games_lastnum()
 void Games_Somenum()
 {
 	int input;
-	puts("====================ÕÒ¹æÂÉÌîÊı====================");
-	printf("\n1.ÈëÃÅ\n2.ÆÕÍ¨\n3.À§ÄÑ\n0.ÍË³ö\nÇëÑ¡ÔñÄÑ¶È:");
+	puts("====================æ‰¾è§„å¾‹å¡«æ•°====================");
+	printf("\n1.å…¥é—¨\n2.æ™®é€š\n3.å›°éš¾\n0.é€€å‡º\nè¯·é€‰æ‹©éš¾åº¦:");
 	scanf("%d",&input);
 	srand(time(0));
 	if(input==1)
 	{
-		//µÈ²îÊıÁĞ 
-		int i,count,s; //Ê×Ïî¡¢ÏîÊı¡¢¹«²î 
+		//ç­‰å·®æ•°åˆ— 
+		int i,count,s; //é¦–é¡¹ã€é¡¹æ•°ã€å…¬å·® 
 		i = rand() % 3 + 1;
 		s = rand() % 3 + 2;
 		count = rand() % 24 + 6;
 		
-		//ÌáÎÊ 
-		printf("¹Û²ì:\n%d¡¢%d¡¢%d¡¢%d¡¤¡¤¡¤\n",i,i+s,i+2*s,i+3*s);
-		printf("ÔòµÚ%d¸öÊıÊÇ:",count);
+		//æé—® 
+		printf("è§‚å¯Ÿ:\n%dã€%dã€%dã€%dÂ·Â·Â·\n",i,i+s,i+2*s,i+3*s);
+		printf("åˆ™ç¬¬%dä¸ªæ•°æ˜¯:",count);
 		while(count>1)
 		{
 			i+=s;
 			count--;
 		}
 		
-		int innum; //ÓÃ»§×÷´ğ 
+		int innum; //ç”¨æˆ·ä½œç­” 
 		scanf("%d",&innum);
 		if(innum==i)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nÕâ¸öÊıÊÇ:%d\n",i);
+		printf("\nè¿™ä¸ªæ•°æ˜¯:%d\n",i);
 	}
 	else if(input==2)
 	{
-		//µÈ±ÈÊıÁĞ 
-		int i,count,s; //Ê×Ïî¡¢ÏîÊı¡¢¹«±È 
+		//ç­‰æ¯”æ•°åˆ— 
+		int i,count,s; //é¦–é¡¹ã€é¡¹æ•°ã€å…¬æ¯” 
 		i = rand() % 3 + 1;
 		s = rand() % 3 + 2;
 		count = rand() % 24 + 6;
 		
-		//ÌáÎÊ 
-		printf("¹Û²ì:\n%d¡¢%d¡¢%d¡¢%d¡¤¡¤¡¤\n",i,i*s,i*s*s,i*s*s*s);
-		printf("ÔòµÚ%d¸öÊıÊÇ:",count);
+		//æé—® 
+		printf("è§‚å¯Ÿ:\n%dã€%dã€%dã€%dÂ·Â·Â·\n",i,i*s,i*s*s,i*s*s*s);
+		printf("åˆ™ç¬¬%dä¸ªæ•°æ˜¯:",count);
 		while(count>1)
 		{
 			i*=s;
 			count--;
 		}
 		
-		//ÓÃ»§×÷´ğ 
+		//ç”¨æˆ·ä½œç­” 
 		int innum;
 		scanf("%d",&innum);
 		if(innum==i)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nÕâ¸öÊıÊÇ:%d\n",i);
+		printf("\nè¿™ä¸ªæ•°æ˜¯:%d\n",i);
 	}
 	else if(input==3)
 	{
-		//×ÛºÏ¹æÂÉÊıÁĞ 
+		//ç»¼åˆè§„å¾‹æ•°åˆ— 
 		int i,count,s,k;
-		i = rand() % 3 + 1; //Ê×Ïà 
-		s = rand() % 3 + 2; //¹«²î(¾ø¶ÔÖµ²î) 
-		k = -1; //¿ØÖÆÕı¸º 
-		count = rand() % 18 + 4; //ÏîÊı 
+		i = rand() % 3 + 1; //é¦–ç›¸ 
+		s = rand() % 3 + 2; //å…¬å·®(ç»å¯¹å€¼å·®) 
+		k = -1; //æ§åˆ¶æ­£è´Ÿ 
+		count = rand() % 18 + 4; //é¡¹æ•° 
 		
-		//¸ø³öÌõ¼ş 
+		//ç»™å‡ºæ¡ä»¶ 
 		int put1=-1*pow(i,2);
 		int put2=pow((i+s),2);
 		int put3=-1*pow((i+s+s),2);
-		printf("¹Û²ì:\n%d¡¢%d¡¢%d¡¤¡¤¡¤",put1,put2,put3);
-		printf("\nÔòµÚ%d¸öÊıÊÇ:",count);
+		printf("è§‚å¯Ÿ:\n%dã€%dã€%dÂ·Â·Â·",put1,put2,put3);
+		printf("\nåˆ™ç¬¬%dä¸ªæ•°æ˜¯:",count);
 		
-		//¼ÆËãËùÎÊÖ®Êı 
+		//è®¡ç®—æ‰€é—®ä¹‹æ•° 
 		int add;
 		while(count>=1)
 		{
@@ -757,18 +757,18 @@ void Games_Somenum()
 			count--;
 		}
 		
-		//ÓÃ»§×÷´ğ 
+		//ç”¨æˆ·ä½œç­” 
 		int innum;
 		scanf("%d",&innum);
 		if(innum==add)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\nÕâ¸öÊıÊÇ:%d\n",add);
+		printf("\nè¿™ä¸ªæ•°æ˜¯:%d\n",add);
 	}
 	
 	
@@ -777,57 +777,57 @@ void Games_Somenum()
 }
 void Games_Peach()
 {
-	puts("====================ºï×Ó³ÔÌÒ====================");
+	puts("====================çŒ´å­åƒæ¡ƒ====================");
 	int count;
 	srand(time(0));
-	count = rand() % 17 + 3; //¸öÊı
+	count = rand() % 17 + 3; //ä¸ªæ•°
 	
-	//ÌáÎÊ 
-	printf("\nÒ»Ö»ºï×Ó²ÉÁËÈô¸É¸öÌÒ×Ó£¬µÚÒ»Ìì³ÔµôÁËÒ»°ëÓÖÒ»¸ö£¬\n´ËºóÃ¿Ìì¶¼³Ôµô×òÌìÊ£ÏÂµÄÒ»°ëÓÖÒ»¸ö£¬\
-	µ½ÁËµÚ%dÌì£¬ÌÒ×ÓÖ»Ê£ÏÂÒ»¸öÁË£¬\nÇóÕªµÄÌÒ×ÓµÄ¸öÊı£º",count);
+	//æé—® 
+	printf("\nä¸€åªçŒ´å­é‡‡äº†è‹¥å¹²ä¸ªæ¡ƒå­ï¼Œç¬¬ä¸€å¤©åƒæ‰äº†ä¸€åŠåˆä¸€ä¸ªï¼Œ\næ­¤åæ¯å¤©éƒ½åƒæ‰æ˜¨å¤©å‰©ä¸‹çš„ä¸€åŠåˆä¸€ä¸ªï¼Œ\
+	åˆ°äº†ç¬¬%då¤©ï¼Œæ¡ƒå­åªå‰©ä¸‹ä¸€ä¸ªäº†ï¼Œ\næ±‚æ‘˜çš„æ¡ƒå­çš„ä¸ªæ•°ï¼š",count);
 	
-	//¼ÆËã´ğ°¸ 
+	//è®¡ç®—ç­”æ¡ˆ 
 	int peach=1;
 	for(;count>1;count--)
 	{
 		peach = (peach+1)*2;
 	}
 	
-	//ÓÃ»§×÷´ğ 
+	//ç”¨æˆ·ä½œç­” 
 	int inpeach;
 	scanf("%d",&inpeach);
 	if(inpeach == peach)
 	{
-		printf("\n>>Äã¶ÔÁË\n");
+		printf("\n>>ä½ å¯¹äº†\n");
 	}
 	else
 	{
-		printf("\n>>Äã´íÁË\n");
+		printf("\n>>ä½ é”™äº†\n");
 	}
-	printf("ÌÒ×ÓµÄ¸öÊıÎª:%d\n",peach);
+	printf("æ¡ƒå­çš„ä¸ªæ•°ä¸º:%d\n",peach);
 	
 	printf("\n");
 	system("pause");
  } 
 void Games_Pro_thought()
 {
-	puts("====================³ÌĞòË¼Ïë==================="); 
+	puts("====================ç¨‹åºæ€æƒ³==================="); 
 	int x,y,zheng; 
-	printf("\n¸ø³öÒÔÏÂÌõ¼ş:\n");
-	puts("µ±x<=0Ê±£¬y=x*-x");
-	puts("µ±0<x<18Ê±,y=x*5-7");
-	puts("µ±x>=18Ê±£¬y=x*8+(x-1)*6");
+	printf("\nç»™å‡ºä»¥ä¸‹æ¡ä»¶:\n");
+	puts("å½“x<=0æ—¶ï¼Œy=x*-x");
+	puts("å½“0<x<18æ—¶,y=x*5-7");
+	puts("å½“x>=18æ—¶ï¼Œy=x*8+(x-1)*6");
 	
-	zheng = rand() % 20 + 1; //Éú³ÉËæ»úÊıÒÔ¾ö¶¨xµÄÕı¸º 
+	zheng = rand() % 20 + 1; //ç”Ÿæˆéšæœºæ•°ä»¥å†³å®šxçš„æ­£è´Ÿ 
 	if(zheng<=10)
-	{	x = rand() % 20 + 3; x = -x;	} //xÎª¸ºÊı 
+	{	x = rand() % 20 + 3; x = -x;	} //xä¸ºè´Ÿæ•° 
 	else
-	{	x = rand() % 29 + 2;	} //xÎªÕı 
+	{	x = rand() % 29 + 2;	} //xä¸ºæ­£ 
 	
-	//ÌáÎÊ 
-	printf("\nµ±x=%dÊ±,y=",x);
+	//æé—® 
+	printf("\nå½“x=%dæ—¶,y=",x);
 	
-	//¼ÆËã´ğ°¸ 
+	//è®¡ç®—ç­”æ¡ˆ 
 	if(x<=0)
 	{
 		y= -x*x; 
@@ -843,17 +843,17 @@ void Games_Pro_thought()
 	
 	
 	
-	//ÓÃ»§×÷´ğ 
+	//ç”¨æˆ·ä½œç­” 
 	int iny;
 	scanf("%d",&iny);
 	
 	if(iny==y)
 	{
-		puts(">>Äã¶ÔÁË");
+		puts(">>ä½ å¯¹äº†");
 	}
 	else
 	{
-		puts(">>Äã´íÁË") ;
+		puts(">>ä½ é”™äº†") ;
 	} 
 	printf("\ny=%d\n",y);
 	
@@ -862,118 +862,118 @@ void Games_Pro_thought()
 }
 void Games_Yanghui()
 {
-	puts("====================Ñî»ÔÈı½Ç===================");
-	printf("ÏÂÍ¼ÊÇÎÒ¹ú¹Å´úÊıÑ§¼ÒÑî»Ô·¢ÏÖµÄÑî»ÔÈı½Ç\n¹Û²ì:\n\n");
+	puts("====================æ¨è¾‰ä¸‰è§’===================");
+	printf("ä¸‹å›¾æ˜¯æˆ‘å›½å¤ä»£æ•°å­¦å®¶æ¨è¾‰å‘ç°çš„æ¨è¾‰ä¸‰è§’\nè§‚å¯Ÿ:\n\n");
 	puts("           1          "); 
 	puts("        1     1       ");
 	puts("    1      2     1    ");
 	puts(" 1     3      3    1  ");	
-	puts("     ¡¤¡¤¡¤¡¤¡¤¡¤     ");
+	puts("     Â·Â·Â·Â·Â·Â·     ");
 	int list,add;
 	list = rand() %8 + 6;
 	add = pow(2,(list-1));
-	printf("\nÔòµÚ%dĞĞµÄËùÓĞÊıÖ®ºÍÎª:",list);
+	printf("\nåˆ™ç¬¬%dè¡Œçš„æ‰€æœ‰æ•°ä¹‹å’Œä¸º:",list);
 	int inadd;
 	scanf("%d",&inadd);
 	if(inadd==add)
 	{
-		puts(">>Äã¶ÔÁË") ;
+		puts(">>ä½ å¯¹äº†") ;
 	}
 	else
 	{
-		puts(">>Äã´íÁË");
+		puts(">>ä½ é”™äº†");
 	}
-	printf("\nµÚ%dĞĞµÄËùÓĞÊıÖ®ºÍÎª%d\n",list,add);
+	printf("\nç¬¬%dè¡Œçš„æ‰€æœ‰æ•°ä¹‹å’Œä¸º%d\n",list,add);
 	printf("\n");
 	system("pause");
 } 
 void Games_Plant_tree()
 {
-	puts("====================Ö²Ê÷ÎÊÌâ====================");
+	puts("====================æ¤æ ‘é—®é¢˜====================");
 	int input;
-	printf("\n1.ÈëÃÅ\n2.ÆÕÍ¨\n3.À§ÄÑ\n0.ÍË³ö\nÇëÑ¡ÔñÄÑ¶È:");
+	printf("\n1.å…¥é—¨\n2.æ™®é€š\n3.å›°éš¾\n0.é€€å‡º\nè¯·é€‰æ‹©éš¾åº¦:");
 	scanf("%d",&input);
 	
 	srand(time(0));
 	if(input==1)
 	{
-		int roat; //Â·³¤ 
-		int distance,trees; //Ê÷¼ä¾à£¬Ê÷¿ÃÊı 
+		int roat; //è·¯é•¿ 
+		int distance,trees; //æ ‘é—´è·ï¼Œæ ‘æ£µæ•° 
 		trees = rand() % 57 + 14;
 		distance = rand() %8 + 3;
-		roat = (trees-1)*distance; //Â·³¤ 
-		printf("\nÔÚÒ»Ìõ³¤%dÃ×µÄÂ·ÅÔÖ²Ê÷£¬Ã¿¿ÃÊ÷¼ä¸ô%dÃ×,\nÄÇÃ´¿ÉÒÔÖ²¶àÉÙ¿ÃÊı:",roat,distance);
-		//ÓÃ»§×÷´ğ 
+		roat = (trees-1)*distance; //è·¯é•¿ 
+		printf("\nåœ¨ä¸€æ¡é•¿%dç±³çš„è·¯æ—æ¤æ ‘ï¼Œæ¯æ£µæ ‘é—´éš”%dç±³,\né‚£ä¹ˆå¯ä»¥æ¤å¤šå°‘æ£µæ•°:",roat,distance);
+		//ç”¨æˆ·ä½œç­” 
 		int intrees;
 		scanf("%d",&intrees);
 		
 		if(intrees==trees)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\n¿ÉÒÔÖ²%d¿ÃÊ÷\n",trees);
+		printf("\nå¯ä»¥æ¤%dæ£µæ ‘\n",trees);
 	}
 	
 	else if(input==2)
 	{
-		int roat; //Â·³¤ 
-		int distance,trees; //Ê÷¼ä¾à£¬Ê÷¿ÃÊı 
+		int roat; //è·¯é•¿ 
+		int distance,trees; //æ ‘é—´è·ï¼Œæ ‘æ£µæ•° 
 		trees = rand() % 57 + 14;
 		distance = rand() %8 + 3;
-		roat = (trees-1)*distance; //Â·³¤
-		int flower; //»¨
+		roat = (trees-1)*distance; //è·¯é•¿
+		int flower; //èŠ±
 		flower = (trees-1)*5;
-		printf("\nÔÚÒ»Ìõ³¤%dÃ×µÄÂ·ÅÔÖ²Ê÷£¬Ã¿¿ÃÊ÷¼ä¸ô%dÃ×,\n",roat,distance);
-		printf("ÈôÃ¿Á½¿ÃÊ÷¼äÖÖ5¶ä»¨£¬Ôò¿ÉÒÔÖÖ¼¸¶ä£º");
+		printf("\nåœ¨ä¸€æ¡é•¿%dç±³çš„è·¯æ—æ¤æ ‘ï¼Œæ¯æ£µæ ‘é—´éš”%dç±³,\n",roat,distance);
+		printf("è‹¥æ¯ä¸¤æ£µæ ‘é—´ç§5æœµèŠ±ï¼Œåˆ™å¯ä»¥ç§å‡ æœµï¼š");
 		
-		//ÓÃ»§×÷´ğ 
+		//ç”¨æˆ·ä½œç­” 
 		int inflower;
 		scanf("%d",&inflower);
 		
 		if(inflower==trees)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\n¿ÉÒÔÖÖ%d¶ä»¨\n",flower);
+		printf("\nå¯ä»¥ç§%dæœµèŠ±\n",flower);
 	}
 	
 	else if(input==3)
 	{
-		int a; //Ã¿±ßºÍ¶Ô½ÇÏßµÄÊ÷µÄ¿ÃÊı 
+		int a; //æ¯è¾¹å’Œå¯¹è§’çº¿çš„æ ‘çš„æ£µæ•° 
 		a = rand() %18 + 3;
 		
-		//×Ü¿ÃÊ÷
+		//æ€»æ£µæ ‘
 		int all;
-		if(a%2==0)//Èç¹ûaÎªÅ¼Êı 
+		if(a%2==0)//å¦‚æœaä¸ºå¶æ•° 
 		{	all = a*6 - 8; 		}
 		
-		else //Èç¹ûÎªÆæÊı 
+		else //å¦‚æœä¸ºå¥‡æ•° 
 		{	all = a*6 - 9;		}
 		
-		//ÌáÎÊ
+		//æé—®
 		int inall; 
-		printf("\nÓĞÒ»¿éÕı·½ĞÎÍÁµØ£¬ËüµÄÃ¿Ìõ±ßºÍ¶Ô½ÇÏß¶¼ÖÖÁË%d¿ÃÊ÷£¬\n",a);
-		printf("ÔòÒ»¹²ÖÖÁË¼¸¿ÃÊ÷£º");
+		printf("\næœ‰ä¸€å—æ­£æ–¹å½¢åœŸåœ°ï¼Œå®ƒçš„æ¯æ¡è¾¹å’Œå¯¹è§’çº¿éƒ½ç§äº†%dæ£µæ ‘ï¼Œ\n",a);
+		printf("åˆ™ä¸€å…±ç§äº†å‡ æ£µæ ‘ï¼š");
 		scanf("%d",&inall);
 		
 		if(inall==all)
 		{
-			puts(">>Äã¶ÔÁË"); 
+			puts(">>ä½ å¯¹äº†"); 
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
-			puts("×¢ÒâÖØºÏ²¿·Ö");
+			puts(">>ä½ é”™äº†");
+			puts("æ³¨æ„é‡åˆéƒ¨åˆ†");
 		}
-		printf("Ò»¹²ÖÖÁË%d¿ÃÊ÷",all);
+		printf("ä¸€å…±ç§äº†%dæ£µæ ‘",all);
 		
 	}
 	
@@ -982,118 +982,118 @@ void Games_Plant_tree()
 }
 void Games_Magic_square()
 {
-	puts("====================»Ã·½===================");
+	puts("====================å¹»æ–¹===================");
 	srand(time(0));
 	int input;
-	printf("\n1.ÈëÃÅ\n2.ÆÕÍ¨\n3.À§ÄÑ\n0.ÍË³ö\nÇëÑ¡ÔñÄÑ¶È:");
+	printf("\n1.å…¥é—¨\n2.æ™®é€š\n3.å›°éš¾\n0.é€€å‡º\nè¯·é€‰æ‹©éš¾åº¦:");
 	scanf("%d",&input);
 	
-	if(input==1) // Èı½×»Ã·½»ù´¡ 
+	if(input==1) // ä¸‰é˜¶å¹»æ–¹åŸºç¡€ 
 	{
-		//´òÓ¡»Ã·½
-		printf("¹Û²ìÏÂÍ¼¹æÂÉ£º\n");
+		//æ‰“å°å¹»æ–¹
+		printf("è§‚å¯Ÿä¸‹å›¾è§„å¾‹ï¼š\n");
 		printf("\t_____________\n");
 		printf("\t|_4_|_9_|_2_|\n");
 		printf("\t|_3_|_5_|_7_|\n");
 		printf("\t|_8_|_1_|_6_|\n");
 		
-		//Éú³ÉµÚ¶ş¸ö»Ã·½ 
-		int num[9] = {4,9,2,3,5,7,8,1,6}; //Ô­»Ã·½¶ÔÓ¦Êı 
-		int differ; //ÏÖ»Ã·½ÓëÔ­»Ã·½µÄ¶ÔÓ¦²î 
+		//ç”Ÿæˆç¬¬äºŒä¸ªå¹»æ–¹ 
+		int num[9] = {4,9,2,3,5,7,8,1,6}; //åŸå¹»æ–¹å¯¹åº”æ•° 
+		int differ; //ç°å¹»æ–¹ä¸åŸå¹»æ–¹çš„å¯¹åº”å·® 
 		differ = rand() % 18 + 3;
-		int count; //Ñ­»·´ÎÊı 
-		for(count = 0;count < 9;count++) //Çó³öÏÖ»Ã·½µÄ¶ÔÓ¦Êı 
+		int count; //å¾ªç¯æ¬¡æ•° 
+		for(count = 0;count < 9;count++) //æ±‚å‡ºç°å¹»æ–¹çš„å¯¹åº”æ•° 
 		{
 			num[count] += differ;
 		}
 		
-		//ÌáÎÊ
-		printf("\nÈçÏÂÍ¼£º\n");
+		//æé—®
+		printf("\nå¦‚ä¸‹å›¾ï¼š\n");
 		printf("\t_____________________\n");
 		printf("\t|______|_____|__%d__|\n",num[2]);
 		printf("\t|______|__x__|__%d__|\n",num[5]);
 		printf("\t|__%d__|_____|__%d__|\n",num[6],num[8]);
-		printf("\n¶Ô±ÈÁ½Í¼£¬Ôò x =");
+		printf("\nå¯¹æ¯”ä¸¤å›¾ï¼Œåˆ™ x =");
 		int x;
 		scanf("%d",&x);
 		
-		//ÅĞ¶Ï
+		//åˆ¤æ–­
 		if(x==num[4])
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		 } 
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
 		
 		printf("\nx = %d\n",num[4]);
 		
 	}
 	
-	else if(input==2) //Èı½×»Ã·½½ø½× 
+	else if(input==2) //ä¸‰é˜¶å¹»æ–¹è¿›é˜¶ 
 	{
 		
-		//Í¨¹ı»ù´¡»Ã·½Éú³É»Ã·½ 
-		int num[9] = {4,9,2,3,5,7,8,1,6}; //»ù´¡»Ã·½¶ÔÓ¦Êı 
-		int differ; //ÏÖ»Ã·½Óë»ù´¡»Ã·½µÄ¶ÔÓ¦²î 
+		//é€šè¿‡åŸºç¡€å¹»æ–¹ç”Ÿæˆå¹»æ–¹ 
+		int num[9] = {4,9,2,3,5,7,8,1,6}; //åŸºç¡€å¹»æ–¹å¯¹åº”æ•° 
+		int differ; //ç°å¹»æ–¹ä¸åŸºç¡€å¹»æ–¹çš„å¯¹åº”å·® 
 		differ = rand() % 23 + 3;
-		int count; //Ñ­»·´ÎÊı 
-		for(count = 0;count < 9;count++) //Çó³öÏÖ»Ã·½µÄ¶ÔÓ¦Êı 
+		int count; //å¾ªç¯æ¬¡æ•° 
+		for(count = 0;count < 9;count++) //æ±‚å‡ºç°å¹»æ–¹çš„å¯¹åº”æ•° 
 		{
 			num[count] += differ;
 		}
-		int Add; //Çó³ö»ÃºÍ 
+		int Add; //æ±‚å‡ºå¹»å’Œ 
 		Add = num[4] * 3;
 		
-		//ÌáÎÊ
+		//æé—®
 		int inx;
-		printf("\nÈçÏÂÍ¼£º\n");
+		printf("\nå¦‚ä¸‹å›¾ï¼š\n");
 		printf("\t_____________________\n");
 		printf("\t|______|_____|______|\n");
 		printf("\t|______|_____|__%d__|\n",num[5]);
 		printf("\t|__%d__|__x__|______|\n",num[6]);
-		printf("\n½øÒ»²½ÑĞ¾¿Èı½×»Ã·½µÄ¹æÂÉ£¬¹Û²ìÉÏÍ¼\n");
-		printf("\nÈôÃ¿ĞĞ¡¢Ã¿ÁĞ¡¢Ã¿Ğ±ĞĞÈı¸öÊıµÄºÍ¶¼Îª%d\n",Add);
-		printf("ÔòµÃ³ö x =");
+		printf("\nè¿›ä¸€æ­¥ç ”ç©¶ä¸‰é˜¶å¹»æ–¹çš„è§„å¾‹ï¼Œè§‚å¯Ÿä¸Šå›¾\n");
+		printf("\nè‹¥æ¯è¡Œã€æ¯åˆ—ã€æ¯æ–œè¡Œä¸‰ä¸ªæ•°çš„å’Œéƒ½ä¸º%d\n",Add);
+		printf("åˆ™å¾—å‡º x =");
 		
 		scanf("%d",&inx);
 		
 		if(inx==num[7])
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
 		printf("\n x = %d",num[7]);
 		
 	}
 	
-	else if(input==3) //ËÄ½×»Ã·½ 
+	else if(input==3) //å››é˜¶å¹»æ–¹ 
 	{
-		//´òÓ¡»Ã·½
-		printf("¹Û²ìÏÂÍ¼¹æÂÉ£º\n");
+		//æ‰“å°å¹»æ–¹
+		printf("è§‚å¯Ÿä¸‹å›¾è§„å¾‹ï¼š\n");
 		printf("\t_____________________\n");
 		printf("\t|__7_|_12_|__1_|_14_|\n");
 		printf("\t|__2_|_13_|__8_|_11_|\n");
 		printf("\t|_16_|__3_|_10_|__5_|\n");
 		printf("\t|__9_|__6_|_15_|__4_|\n");
-		//Éú³ÉµÚ¶ş¸ö»Ã·½
-		int num[16];//Ô­»Ã·½Êı
-		int differ; //ÏÖ»Ã·½ÓëÔ­»Ã·½µÄ²î
+		//ç”Ÿæˆç¬¬äºŒä¸ªå¹»æ–¹
+		int num[16];//åŸå¹»æ–¹æ•°
+		int differ; //ç°å¹»æ–¹ä¸åŸå¹»æ–¹çš„å·®
 		differ = rand() % 23 + 3;
-		int count; //Ñ­»·´ÎÊı
-		int inum = 1; //ÎªÊı×é¸³Öµ 
+		int count; //å¾ªç¯æ¬¡æ•°
+		int inum = 1; //ä¸ºæ•°ç»„èµ‹å€¼ 
 		for(count=0;count < 16;count++) 
 		{
 			num[count] = inum;
 			num[count] += differ;
 			inum++;
 		}
-		//ÌáÎÊ
-		printf("\nÓĞ16¸öÊı£º\n\n");
+		//æé—®
+		printf("\næœ‰16ä¸ªæ•°ï¼š\n\n");
 		for(count=0;count < 16;count++)
 		{
 			printf("%d",num[count]);
@@ -1107,23 +1107,23 @@ void Games_Magic_square()
 			}
 		}
 		int X;
-		printf("\nÈô½«ËüÃÇÌîÈëÏÂÍ¼µÄ±í¸ñÀï£¬\nÊ¹Ã¿ĞĞ¡¢Ã¿ÁĞ¡¢Ã¿Ğ±ÁĞµÄÊıµÄºÍ¶¼ÏàµÈ\n");
+		printf("\nè‹¥å°†å®ƒä»¬å¡«å…¥ä¸‹å›¾çš„è¡¨æ ¼é‡Œï¼Œ\nä½¿æ¯è¡Œã€æ¯åˆ—ã€æ¯æ–œåˆ—çš„æ•°çš„å’Œéƒ½ç›¸ç­‰\n");
 		printf("\t_____________________\n");
 		printf("\t|____|____|____|____|\n");
 		printf("\t|____|____|____|____|\n");
 		printf("\t|____|____|____|____|\n");
 		printf("\t|____|____|____|__X_|\n");
-		printf("\nÔò X =");
+		printf("\nåˆ™ X =");
 		scanf("%d",&X);
 		if((X==num[0]) || (X==num[3]) ||(X==num[12]) || (X==num[15]))
 		{
-			puts(">>Äã¶ÔÁËÆäÖĞÖ®Ò»");
+			puts(">>ä½ å¯¹äº†å…¶ä¸­ä¹‹ä¸€");
 		}
 		else
 		{
-			puts("Äã´íÁË");
+			puts("ä½ é”™äº†");
 		}
-		printf("\nX = %d »ò %d »ò %d »ò %d\n",num[15],num[12],num[3],num[0]);
+		printf("\nX = %d æˆ– %d æˆ– %d æˆ– %d\n",num[15],num[12],num[3],num[0]);
 	}
 	
 	printf("\n");
@@ -1131,27 +1131,27 @@ void Games_Magic_square()
 }
 void Games_odd_even()
 {
-	puts("==================ÆæÅ¼ĞÔÖÊÓ¦ÓÃ=================");
+	puts("==================å¥‡å¶æ€§è´¨åº”ç”¨=================");
 	srand(time(0));
 	int input;
-	printf("\n1.ÈëÃÅ\n2.ÆÕÍ¨\n3.À§ÄÑ\n0.ÍË³ö\nÇëÑ¡ÔñÄÑ¶È:");
+	printf("\n1.å…¥é—¨\n2.æ™®é€š\n3.å›°éš¾\n0.é€€å‡º\nè¯·é€‰æ‹©éš¾åº¦:");
 	scanf("%d",&input);
 	
 	if(input==1)
 	{
-		//´´ÔìÊıÁĞ 
+		//åˆ›é€ æ•°åˆ— 
 		int a; 
-		a = rand() % 5 + 1; //µÚÒ»¸öÊı
+		a = rand() % 5 + 1; //ç¬¬ä¸€ä¸ªæ•°
 		int count;
-		count = rand() % 961 + 40;  //ÊıÁĞµÄÏîÊı
-		//ÅĞ¶ÏÊıÁĞµÄºÍµÄÆæÅ¼ĞÔ
+		count = rand() % 961 + 40;  //æ•°åˆ—çš„é¡¹æ•°
+		//åˆ¤æ–­æ•°åˆ—çš„å’Œçš„å¥‡å¶æ€§
 		int add = 0;
 		for(;count>=1;count--)
 		{
 			add += a;
 			a += 1;
 		}
-		char OE; //ÅĞ¶ÏÆæÅ¼ 
+		char OE; //åˆ¤æ–­å¥‡å¶ 
 		if(add%2==0)
 		{
 			OE = 'Y';
@@ -1160,79 +1160,79 @@ void Games_odd_even()
 		{
 			OE = 'N';
 		}
-		//ÌáÎÊ
+		//æé—®
 		char inOE;
-		printf("\n%d + %d + %d +¡¤¡¤¡¤+ %dµÄºÍ£¬\n",a,a+1,a+2,a+count-1);
-		printf("\nÊÇ·ñÊÇÅ¼Êı(Y/N)£º");
-		getchar(); //·ÀÖ¹»º³åÇø¸ÉÈÅÊäÈë 
+		printf("\n%d + %d + %d +Â·Â·Â·+ %dçš„å’Œï¼Œ\n",a,a+1,a+2,a+count-1);
+		printf("\næ˜¯å¦æ˜¯å¶æ•°(Y/N)ï¼š");
+		getchar(); //é˜²æ­¢ç¼“å†²åŒºå¹²æ‰°è¾“å…¥ 
 		scanf("%c",&inOE);
 		
 		if(inOE==OE || inOE==(OE+32))
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
 		
 	}
 	
 	else if(input==2)
 	{
-		//ì³²¨ÄÇÆõÊıÁĞ
+		//æ–æ³¢é‚£å¥‘æ•°åˆ—
 		int count;
-		count = rand() % 971 + 30;  //ÊıÁĞµÄÏîÊı
-		int iodd; //ÆæÊıµÄ¸öÊı
+		count = rand() % 971 + 30;  //æ•°åˆ—çš„é¡¹æ•°
+		int iodd; //å¥‡æ•°çš„ä¸ªæ•°
 		iodd = count - count/3;
-		//ÌáÎÊ 
+		//æé—® 
 		int in_iodd;
-		printf("\n¹Û²ìÕâ¸öì³²¨ÄÇÆõÊıÁĞ£º\n");
-		printf("1¡¢1¡¢2¡¢3¡¢5¡¢8¡¢13¡¢21¡¢34¡¢55¡¤¡¤¡¤¡¤¡¤¡¤\n\n");
-		printf("ËùÒÔÇ°%d¸öÊı(°üÀ¨µÚ%d¸öÊı)ÖĞ£¬¹²ÓĞ¶àÉÙ¸öÆæÊı£º",count,count);
+		printf("\nè§‚å¯Ÿè¿™ä¸ªæ–æ³¢é‚£å¥‘æ•°åˆ—ï¼š\n");
+		printf("1ã€1ã€2ã€3ã€5ã€8ã€13ã€21ã€34ã€55Â·Â·Â·Â·Â·Â·\n\n");
+		printf("æ‰€ä»¥å‰%dä¸ªæ•°(åŒ…æ‹¬ç¬¬%dä¸ªæ•°)ä¸­ï¼Œå…±æœ‰å¤šå°‘ä¸ªå¥‡æ•°ï¼š",count,count);
 		scanf("%d",&in_iodd);
 		
 		if(in_iodd==iodd)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\n¹²ÓĞ%d¸öÆæÊı\n",iodd);
+		printf("\nå…±æœ‰%dä¸ªå¥‡æ•°\n",iodd);
 	}
 	
 	else if(input==3)
 	{
 		int count;
-		count = rand() % 951 + 50; //µÆÅİ¡¢Ñ§Éú¸öÊı 
-		//ÇócountÄÚµÄËùÓĞÆ½·½Êı×÷Îª´ğ°¸
-		int inum; //200ÄÚµÄÆ½·½ÊıµÄ¸öÊı 
-		int inum_pow[44]; //Æ½·½Êı 
+		count = rand() % 951 + 50; //ç¯æ³¡ã€å­¦ç”Ÿä¸ªæ•° 
+		//æ±‚countå†…çš„æ‰€æœ‰å¹³æ–¹æ•°ä½œä¸ºç­”æ¡ˆ
+		int inum; //200å†…çš„å¹³æ–¹æ•°çš„ä¸ªæ•° 
+		int inum_pow[44]; //å¹³æ–¹æ•° 
 		for(inum=0;(pow((inum+1),2))<count;inum++)
 		{
 			inum_pow[inum] = pow((inum+1),2);
 		} 
-		//ÌáÎÊ
+		//æé—®
 		int innum;
-		printf("\n\nÔÚÒ»¼äÎİ×ÓÀï£¬ÓĞ%dÕµµÆÅÅ³ÉÒ»ĞĞ£¬´Ó×óµ½ÓÒÌù×ÅĞòºÅ 1~%d£¬\n",count,count) ;
-		printf("Ã¿ÕµµÆÉÏ¶¼ÓĞÒ»¸ö¿ª¹Ø£¬¸Õ¿ªÊ¼Ê±£¬ËùÓĞµÆÊÇÃğµÄ¡£µÚ1¸öÑ§Éú×ß½øÀ´£¬\n");
-		printf("°ÑËùÓĞĞòºÅÊÇ1µÄ±¶ÊıµÄµçµÆ¿ª¹Ø¶¼À­ÁËÒ»ÏÂ£¬µÚ2¸öÑ§Éú°ÑËùÓĞĞòºÅÊÇ2µÄ±¶ÊıµÄµçµÆ\n");
-		printf("¶¼À­ÁËÒ»ÏÂ£¬µÚ3¸öÑ§Éú¡¤¡¤¡¤¡¤¡¤¡¤µÚ%d¸öÑ§Éú°ÑËùÓĞĞòºÅÊÇ%dµÄ±¶ÊıµÄµçµÆÀ­ÁËÒ»ÏÂ£¬\n",count,count);
-		printf("\n×îºó£¬»¹Ê£¶àÉÙÕµµÆÁÁ×Å£º");
+		printf("\n\nåœ¨ä¸€é—´å±‹å­é‡Œï¼Œæœ‰%dç›ç¯æ’æˆä¸€è¡Œï¼Œä»å·¦åˆ°å³è´´ç€åºå· 1~%dï¼Œ\n",count,count) ;
+		printf("æ¯ç›ç¯ä¸Šéƒ½æœ‰ä¸€ä¸ªå¼€å…³ï¼Œåˆšå¼€å§‹æ—¶ï¼Œæ‰€æœ‰ç¯æ˜¯ç­çš„ã€‚ç¬¬1ä¸ªå­¦ç”Ÿèµ°è¿›æ¥ï¼Œ\n");
+		printf("æŠŠæ‰€æœ‰åºå·æ˜¯1çš„å€æ•°çš„ç”µç¯å¼€å…³éƒ½æ‹‰äº†ä¸€ä¸‹ï¼Œç¬¬2ä¸ªå­¦ç”ŸæŠŠæ‰€æœ‰åºå·æ˜¯2çš„å€æ•°çš„ç”µç¯\n");
+		printf("éƒ½æ‹‰äº†ä¸€ä¸‹ï¼Œç¬¬3ä¸ªå­¦ç”ŸÂ·Â·Â·Â·Â·Â·ç¬¬%dä¸ªå­¦ç”ŸæŠŠæ‰€æœ‰åºå·æ˜¯%dçš„å€æ•°çš„ç”µç¯æ‹‰äº†ä¸€ä¸‹ï¼Œ\n",count,count);
+		printf("\næœ€åï¼Œè¿˜å‰©å¤šå°‘ç›ç¯äº®ç€ï¼š");
 		scanf("%d",&innum);
 		
 		if(innum==inum)
 		{
-			puts(">>Äã¶ÔÁË");
+			puts(">>ä½ å¯¹äº†");
 		}
 		else
 		{
-			puts(">>Äã´íÁË");
+			puts(">>ä½ é”™äº†");
 		}
-		printf("\n»¹Ê£%dÕµµÆÁÁ×Å\n",inum);
-		printf("ÕâĞ©µÆµÄĞòºÅ·Ö±ğÊÇ£º\n\n");
+		printf("\nè¿˜å‰©%dç›ç¯äº®ç€\n",inum);
+		printf("è¿™äº›ç¯çš„åºå·åˆ†åˆ«æ˜¯ï¼š\n\n");
 		int list;
 		for(list=0;list<inum;list++)
 		{
@@ -1257,27 +1257,27 @@ void Games_odd_even()
 void Tools_menu()
 {
 	system("cls");
- 	system("color F3"); //ÉèÖÃ ±³¾° ×ÖÌåÑÕÉ« 
+ 	system("color F3"); //è®¾ç½® èƒŒæ™¯ å­—ä½“é¢œè‰² 
 	printf("\n\n\n\n\n");
-	printf("\t\t|-------------------¹¤¾ßÀ¸-----------------|\n");
-	printf("\t\t|\t 1. Ãæ»ı¼ÆËã                   	   |\n");
-	printf("\t\t|\t 2. Ìå»ı¼ÆËã                       |\n");
-	printf("\t\t|\t 3. Éú³ÉËæ»úÊı                     |\n");
-	printf("\t\t|\t 4. µÈ²îÊıÁĞ¼ÆËã                   |\n");
-	printf("\t\t|\t 5. µÈ±ÈÊıÁĞ¼ÆËã                   |\n");
-	printf("\t\t|\t 6. ÎÄ×Ö¼Ó/½âÃÜ                    |\n");
-	printf("\t\t|\t 7. Ô¼ÊıÓë±¶Êı                     |\n");
-	printf("\t\t|\t 8. ¼ÆËãÆ÷                         |\n");
-	printf("\t\t|\t 9. ÊıÁĞ´¦Àí                       |\n");
-	printf("\t\t|\t 0. ·µ»Ø                           |\n");
+	printf("\t\t|-------------------å·¥å…·æ -----------------|\n");
+	printf("\t\t|\t 1. é¢ç§¯è®¡ç®—                   	   |\n");
+	printf("\t\t|\t 2. ä½“ç§¯è®¡ç®—                       |\n");
+	printf("\t\t|\t 3. ç”Ÿæˆéšæœºæ•°                     |\n");
+	printf("\t\t|\t 4. ç­‰å·®æ•°åˆ—è®¡ç®—                   |\n");
+	printf("\t\t|\t 5. ç­‰æ¯”æ•°åˆ—è®¡ç®—                   |\n");
+	printf("\t\t|\t 6. æ–‡å­—åŠ /è§£å¯†                    |\n");
+	printf("\t\t|\t 7. çº¦æ•°ä¸å€æ•°                     |\n");
+	printf("\t\t|\t 8. è®¡ç®—å™¨                         |\n");
+	printf("\t\t|\t 9. æ•°åˆ—å¤„ç†                       |\n");
+	printf("\t\t|\t 0. è¿”å›                           |\n");
 	printf("\t\t|------------------------------------------|\n\n");
-	printf("\t\t\tÇëÑ¡Ôñ(0~9):");
+	printf("\t\t\tè¯·é€‰æ‹©(0~9):");
 }
-void Tools_Choose() //¹¤¾ß²Ëµ¥
+void Tools_Choose() //å·¥å…·èœå•
 {
  	int input;
- 	system("cls"); //»»Ò³ 
- 	Tools_menu(); //ÏÔÊ¾²Ëµ¥ 
+ 	system("cls"); //æ¢é¡µ 
+ 	Tools_menu(); //æ˜¾ç¤ºèœå• 
 	scanf("%d",&input);
 	while(input)
 	{
@@ -1312,56 +1312,56 @@ void Tools_Choose() //¹¤¾ß²Ëµ¥
 				break;
 			default:break;
 		}
-		Tools_menu(); //ÔÙ´ÎÏÔÊ¾²Ëµ¥ 
+		Tools_menu(); //å†æ¬¡æ˜¾ç¤ºèœå• 
 		scanf("%d",&input);
 	}
  }
-//¹¤¾ß£º 
+//å·¥å…·ï¼š 
 void Tools_S()
 {
-	puts("===================Ãæ»ı¼ÆËãÆ÷===================");
+	puts("===================é¢ç§¯è®¡ç®—å™¨===================");
 	int input;
-	printf("\n1.Ô²\n2.Èı½ÇĞÎ\n3.Èı½ÇĞÎ(º£Â×¹«Ê½)\n4.Æ½ĞĞËÄ±ßĞÎ\n5.ÌİĞÎ\n");
-	printf("ÇëÊäÈëÄãÒª¼ÆËãµÄÍ¼ĞÎ(Ãæ»ı)ÀàĞÍ:");
+	printf("\n1.åœ†\n2.ä¸‰è§’å½¢\n3.ä¸‰è§’å½¢(æµ·ä¼¦å…¬å¼)\n4.å¹³è¡Œå››è¾¹å½¢\n5.æ¢¯å½¢\n");
+	printf("è¯·è¾“å…¥ä½ è¦è®¡ç®—çš„å›¾å½¢(é¢ç§¯)ç±»å‹:");
 	scanf("%d",&input);
 	
-	double S,a,b,h,r,half; //Ãæ»ı¡¢³¤¡¢¿í¡¢¸ß¡¢°ë¾¶¡¢Èı½ÇĞÎ°ëÖÜ³¤ 
+	double S,a,b,h,r,half; //é¢ç§¯ã€é•¿ã€å®½ã€é«˜ã€åŠå¾„ã€ä¸‰è§’å½¢åŠå‘¨é•¿ 
 	switch(input)
 	{
 		case 1:
-			puts("ÇëÊäÈëÔ²µÄ°ë¾¶:");
+			puts("è¯·è¾“å…¥åœ†çš„åŠå¾„:");
 			scanf("%lf",&r);
 			S = PAI*r*r;
-			printf("¸ÃÔ²µÄÃæ»ıÎª:\n%lf\n\n",S);
+			printf("è¯¥åœ†çš„é¢ç§¯ä¸º:\n%lf\n\n",S);
 			break;
 		case 2:
-			puts("Çë·Ö±ğÊäÈëÈı½ÇĞÎµÄµ×ºÍ¸ß:");
+			puts("è¯·åˆ†åˆ«è¾“å…¥ä¸‰è§’å½¢çš„åº•å’Œé«˜:");
 			scanf("%lf %lf",&a,&h);
 			S = a*h*0.5;
-			printf("¸ÃÈı½ÇĞÎµÄÃæ»ıÎª:\n%lf\n\n",S);
+			printf("è¯¥ä¸‰è§’å½¢çš„é¢ç§¯ä¸º:\n%lf\n\n",S);
 			break;
 		case 3:
-			puts("ÇëÓÉĞ¡µ½´óÊäÈëÈı½ÇĞÎµÄÈı±ß:");
+			puts("è¯·ç”±å°åˆ°å¤§è¾“å…¥ä¸‰è§’å½¢çš„ä¸‰è¾¹:");
 			scanf("%lf %lf %lf",&a,&b,&h);
-			//º£Â×¹«Ê½ 
+			//æµ·ä¼¦å…¬å¼ 
 			half=(a+b+h)/2;
 			S = sqrt(half*(half-a)*(half-b)*(half-h));
-			printf("¸ÃÈı½ÇĞÎÃæ»ıÎª:\n%lf\n\n",S);
+			printf("è¯¥ä¸‰è§’å½¢é¢ç§¯ä¸º:\n%lf\n\n",S);
 			break;
 		case 4:
-			puts("ÇëÒÀ´ÎÊäÈëÆ½ĞĞËÄ±ßĞÎ(³¤·½ĞÎ)µÄµ×ºÍ¸ß(³¤ºÍ¿í):");
+			puts("è¯·ä¾æ¬¡è¾“å…¥å¹³è¡Œå››è¾¹å½¢(é•¿æ–¹å½¢)çš„åº•å’Œé«˜(é•¿å’Œå®½):");
 			scanf("%lf %lf",&a,&b);
 			S = a*b;
-			printf("¸ÃÆ½ĞĞËÄ±ßĞÎµÄÃæ»ıÎª:\n%lf\n\n",S);
+			printf("è¯¥å¹³è¡Œå››è¾¹å½¢çš„é¢ç§¯ä¸º:\n%lf\n\n",S);
 			break;
 		case 5:
-			puts("ÇëÒÀ´ÎÊäÈë¸ÃÌİĞÎµÄÉÏµ×¡¢ÏÂµ×ºÍ¸ß:");
+			puts("è¯·ä¾æ¬¡è¾“å…¥è¯¥æ¢¯å½¢çš„ä¸Šåº•ã€ä¸‹åº•å’Œé«˜:");
 			scanf("%lf %lf %lf",&a,&b,&h);
 			S = (a+b)*h*0.5;
-			printf("¸ÃÌİĞÎµÄÃæ»ıÎª:\n%lf\n\n",S);
+			printf("è¯¥æ¢¯å½¢çš„é¢ç§¯ä¸º:\n%lf\n\n",S);
 			break;
 		default:
-		puts("[error_00x00000]ÇëÊäÈëÒ»¸öÕıÈ·µÄĞòºÅ£¡");
+		puts("[error_00x00000]è¯·è¾“å…¥ä¸€ä¸ªæ­£ç¡®çš„åºå·ï¼");
 		break;
 	}
 	
@@ -1370,46 +1370,46 @@ void Tools_S()
 }
 void Tools_V()
 {
-	puts("===================Ìå»ı¼ÆËãÆ÷===================");
+	puts("===================ä½“ç§¯è®¡ç®—å™¨===================");
 	int input;
-	puts("\nÇëÊäÈë(ĞòºÅ)ÄãÒª¼ÆËãµÄÍ¼ĞÎ(Ìå»ı)£º\n1.ËÄÀâÖù\n2.ÇòÌå\n3.Ô²ÖùÌå\n4.Ô²×¶Ìå"); 
+	puts("\nè¯·è¾“å…¥(åºå·)ä½ è¦è®¡ç®—çš„å›¾å½¢(ä½“ç§¯)ï¼š\n1.å››æ£±æŸ±\n2.çƒä½“\n3.åœ†æŸ±ä½“\n4.åœ†é”¥ä½“"); 
 	scanf("%d",&input);
 	
-	double V; //Ìå»ı 
-	double a,b,h; //³¤¿í¸ß 
-	double R; //µ×Ãæ°ë¾¶ 
+	double V; //ä½“ç§¯ 
+	double a,b,h; //é•¿å®½é«˜ 
+	double R; //åº•é¢åŠå¾„ 
 	switch(input)
 	{
 		case 1:
-			puts("ÒÀ´ÎÊäÈë³¤¡¢¿í¡¢¸ß:");
+			puts("ä¾æ¬¡è¾“å…¥é•¿ã€å®½ã€é«˜:");
 			scanf("%lf %lf %lf",&a,&b,&h);
 			V=a*b*h;
-			printf("ËüµÄÌå»ıÎª: %lf",V);
+			printf("å®ƒçš„ä½“ç§¯ä¸º: %lf",V);
 			break;
 		
 		case 2:
-			puts("ÇëÊäÈëÇòÌåµÄ°ë¾¶:");
+			puts("è¯·è¾“å…¥çƒä½“çš„åŠå¾„:");
 			scanf("%lf",&R);
 			V=(4.0/3.0)*PAI*R*R*R;
-			printf("ËüµÄÌå»ıÎª£º%lf",V);
+			printf("å®ƒçš„ä½“ç§¯ä¸ºï¼š%lf",V);
 			break;
 		
 		case 3:
-			puts("ÇëÒÀ´ÎÊäÈëÔ²ÖùÌåµÄ°ë¾¶¡¢¸ß£º");
+			puts("è¯·ä¾æ¬¡è¾“å…¥åœ†æŸ±ä½“çš„åŠå¾„ã€é«˜ï¼š");
 			scanf("%lf %lf",&R,&h);
 			V=PAI*R*R*h;
-			printf("ËüµÄÌå»ıÎª:%lf",V);
+			printf("å®ƒçš„ä½“ç§¯ä¸º:%lf",V);
 			break;
 		
 		case 4:
-			puts("ÇëÒÀ´ÎÊäÈëÔ²×¶µÄµ×Ãæ°ë¾¶¡¢¸ß£º");
+			puts("è¯·ä¾æ¬¡è¾“å…¥åœ†é”¥çš„åº•é¢åŠå¾„ã€é«˜ï¼š");
 			scanf("%lf %lf",&R,&h);
 			V=(1.0/3.0)*PAI*R*R*h;
-			printf("ËüµÄÌå»ıÎª: %lf",V);
+			printf("å®ƒçš„ä½“ç§¯ä¸º: %lf",V);
 			break;
 		
 		default:
-			puts("[error_00x00000]ÇëÊäÈëÒ»¸öÕıÈ·µÄĞòºÅ£¡");
+			puts("[error_00x00000]è¯·è¾“å…¥ä¸€ä¸ªæ­£ç¡®çš„åºå·ï¼");
 			break;
 	}
 	printf("\n");
@@ -1417,20 +1417,20 @@ void Tools_V()
 }
 void Tools_Random()
 {
-	puts("=================Ëæ»úÊıÉú³ÉÆ÷=================");
+	puts("=================éšæœºæ•°ç”Ÿæˆå™¨=================");
 	
-	int a,i,l,max; //Ëæ»úÊı¡¢´ÎÊı¡¢´ÎÊıÉÏÏŞ¡¢Ëæ»úÊı´óĞ¡ÉÏÏŞ 
+	int a,i,l,max; //éšæœºæ•°ã€æ¬¡æ•°ã€æ¬¡æ•°ä¸Šé™ã€éšæœºæ•°å¤§å°ä¸Šé™ 
 	
-	printf("\nĞèÒª¶àÉÙÒÔÄÚµÄËæ»úÊı:");
+	printf("\néœ€è¦å¤šå°‘ä»¥å†…çš„éšæœºæ•°:");
 	scanf("%d",&max);
-	printf("\nĞèÒª¶àÉÙ¸öËæ»úÊı:");
+	printf("\néœ€è¦å¤šå°‘ä¸ªéšæœºæ•°:");
 	scanf("%d",&l);
-	//¿ªÊ¼Éú³É 
+	//å¼€å§‹ç”Ÿæˆ 
 	srand(time(0));
 	for(i=1;i<=l;i++)
 	{	
 		a = rand() % max + 1;
-		printf("µÚ%d¸öËæ»úÊıÊÇ%d.\n",i,a);
+		printf("ç¬¬%dä¸ªéšæœºæ•°æ˜¯%d.\n",i,a);
 	}
 	
 	printf("\n");
@@ -1438,36 +1438,36 @@ void Tools_Random()
 } 
 void Tools_AP()
 {
-	puts("===================µÈ²îÊıÁĞÇóºÍ===================");
+	puts("===================ç­‰å·®æ•°åˆ—æ±‚å’Œ===================");
 	
-	float x,y,z,i; //Ê×Ïî¡¢¹«²î¡¢Ä©Ïî¡¢ºÍ 
-	puts("\nÇë·Ö±ğÊäÈë£º\nÊ×Ïî(ÊıÁĞµÄµÚÒ»Ïî)\n¹«²î(Ã¿Á½ÏîµÄ²î)\nÄ©Ïî(ÊıÁĞµÄ×îºóÒ»Ïî)\n");
+	float x,y,z,i; //é¦–é¡¹ã€å…¬å·®ã€æœ«é¡¹ã€å’Œ 
+	puts("\nè¯·åˆ†åˆ«è¾“å…¥ï¼š\né¦–é¡¹(æ•°åˆ—çš„ç¬¬ä¸€é¡¹)\nå…¬å·®(æ¯ä¸¤é¡¹çš„å·®)\næœ«é¡¹(æ•°åˆ—çš„æœ€åä¸€é¡¹)\n");
 	scanf("%f %f %f",&x,&y,&z);
 	
-	z=(z-x)/y+1.0; //Çó³öÏîÊı 
+	z=(z-x)/y+1.0; //æ±‚å‡ºé¡¹æ•° 
 	for(;z>=1;z--,x+=y)
 	{
 		i+=x; 
 	}
-	printf("ÕâÁĞµÈ²îÊıÁĞµÄºÍÎª:%.2f\n\n",i);
+	printf("è¿™åˆ—ç­‰å·®æ•°åˆ—çš„å’Œä¸º:%.2f\n\n",i);
 	system("pause");
 }
 void Tools_GS()
 {
-	puts("===================µÈ±ÈÊıÁĞÇóºÍ===================");
-	float x,y,z,i; //Ê×Ïà¡¢¹«±È¡¢Ä©Ïî¡¢ºÍ
+	puts("===================ç­‰æ¯”æ•°åˆ—æ±‚å’Œ===================");
+	float x,y,z,i; //é¦–ç›¸ã€å…¬æ¯”ã€æœ«é¡¹ã€å’Œ
 	 
-	puts("\nÇë·Ö±ğÊäÈë£º\nÊ×Ïî(ÊıÁĞµÄµÚÒ»Ïî)\n¹«±ÈµÄ·´±È(Ã¿Á½ÏîµÄ±ÈµÄµ¹Êı)\nÄ©Ïî(ÊıÁĞµÄ×îºóÒ»Ïî)\n");
+	puts("\nè¯·åˆ†åˆ«è¾“å…¥ï¼š\né¦–é¡¹(æ•°åˆ—çš„ç¬¬ä¸€é¡¹)\nå…¬æ¯”çš„åæ¯”(æ¯ä¸¤é¡¹çš„æ¯”çš„å€’æ•°)\næœ«é¡¹(æ•°åˆ—çš„æœ€åä¸€é¡¹)\n");
 	scanf("%f %f %f",&x,&y,&z);
 	
-	//ÇóºÍ 
+	//æ±‚å’Œ 
 	float count=x; 
 	for(;z>=count;z/=y)
 	{
 		i+=x;
 		x*=y;
 	}
-	printf("ÕâÁĞµÈ±ÈÊıÁĞµÄºÍÎª:%.2f\n\n",i); 
+	printf("è¿™åˆ—ç­‰æ¯”æ•°åˆ—çš„å’Œä¸º:%.2f\n\n",i); 
 	
 	system("pause");
  } 
@@ -1476,37 +1476,37 @@ void Tools_Pass()
 	int input;
 	do
 	{
-		puts("===================ÎÄ×Ö¼Ó/½âÃÜ===================");
-		printf("1.¼ÓÃÜ\n2.½âÃÜ\n0.·µ»Ø\nĞëÖª£ºÉÙÓÚ600ºº×Ö»òÉÙÓÚ1200×ÖÄ¸\nÇëÑ¡Ôñ:");
+		puts("===================æ–‡å­—åŠ /è§£å¯†===================");
+		printf("1.åŠ å¯†\n2.è§£å¯†\n0.è¿”å›\né¡»çŸ¥ï¼šå°‘äº600æ±‰å­—æˆ–å°‘äº1200å­—æ¯\nè¯·é€‰æ‹©:");
 		scanf("%d",&input);
-		getchar(); //ÖØÔØ»º³åÇø
+		getchar(); //é‡è½½ç¼“å†²åŒº
 		 
-		char c[1201]; //ÏŞ¶¨³¤¶È
+		char c[1201]; //é™å®šé•¿åº¦
 		
-		//¼ÓÃÜ¡¢½âÃÜ 
+		//åŠ å¯†ã€è§£å¯† 
 		if(input==1)
 		{ 
-			printf("\nÇëÊäÈëÒª¼ÓÃÜµÄÎÄ×Ö:") ;
+			printf("\nè¯·è¾“å…¥è¦åŠ å¯†çš„æ–‡å­—:") ;
 			gets(c);
 	    	char *pc=c;
 	    	while(*pc){
 	        	*pc += 9;
 	        	pc++;
 	    	}
-	    	printf("\n\n¼ÓÃÜºóµÄÎÄ×ÖÎª:\n%s\n\n",c);
+	    	printf("\n\nåŠ å¯†åçš„æ–‡å­—ä¸º:\n%s\n\n",c);
 	    	
 	    	system("pause");
 		}
 		else if(input==2)
 		{
-			printf("\nÇëÊäÈëÒª½âÃÜµÄÎÄ×Ö:") ;
+			printf("\nè¯·è¾“å…¥è¦è§£å¯†çš„æ–‡å­—:") ;
 			gets(c);
 	    	char *pc=c;
 	    	while(*pc){
 	        	*pc -= 9;
 	        	pc++;
 	    	}
-	    	printf("\n\n½âÃÜºóµÄÎÄ×ÖÎª:\n%s\n\n",c);
+	    	printf("\n\nè§£å¯†åçš„æ–‡å­—ä¸º:\n%s\n\n",c);
 	    	
 	    	system("pause");
 		} 
@@ -1515,15 +1515,15 @@ void Tools_Pass()
 }
 void Tools_gcd()
 {
-	puts("===================×î´ó¹«Ô¼ÊıºÍ×îĞ¡¹«±¶Êı===================");
+	puts("===================æœ€å¤§å…¬çº¦æ•°å’Œæœ€å°å…¬å€æ•°===================");
 	int a,b;
-	printf("\nÇë·Ö±ğÊäÈëÁ½Êı£º");
+	printf("\nè¯·åˆ†åˆ«è¾“å…¥ä¸¤æ•°ï¼š");
 	scanf("%d %d",&a,&b);
-	//Ôİ´æa¡¢bµÄÖµ 
+	//æš‚å­˜aã€bçš„å€¼ 
 	int a1,b1;
 	a1 = a;
 	b1 = b;
-	//Õ·×ªÏà³ı·¨ 
+	//è¾—è½¬ç›¸é™¤æ³• 
 	int t;
 	while(b!=0)
 	{
@@ -1531,69 +1531,69 @@ void Tools_gcd()
 		a=b;
 		b=t;
 	}
-	printf("\nËüÃÇµÄ×î´ó¹«Ô¼ÊıÎª:%d\n",a);
-	//Çó³ö×îĞ¡¹«±¶Êı 
+	printf("\nå®ƒä»¬çš„æœ€å¤§å…¬çº¦æ•°ä¸º:%d\n",a);
+	//æ±‚å‡ºæœ€å°å…¬å€æ•° 
 	int m;
 	m = a1*b1/a;
-	printf("ËüÃÇµÄ×îĞ¡¹«±¶ÊıÎª:%d\n",m);
+	printf("å®ƒä»¬çš„æœ€å°å…¬å€æ•°ä¸º:%d\n",m);
 	printf("\n");
 	system("pause");
 } 
 void Tools_computer()
 {
 	int input;
-	double a,b; //Á½Êı 
-	double Add; //½á¹û 
+	double a,b; //ä¸¤æ•° 
+	double Add; //ç»“æœ 
 	
 	do
 	{
-		puts("===================¼ÆËãÆ÷===================");
-		printf("\n1.¼Ó·¨\n2.¼õ·¨\n3.³Ë·¨\n4.³ı·¨\n5.ÃİµÄÔËËã\n6.¿ª·½ÔËËã\n0.·µ»Ø\n");
-		printf("ÇëÑ¡Ôñ:");
+		puts("===================è®¡ç®—å™¨===================");
+		printf("\n1.åŠ æ³•\n2.å‡æ³•\n3.ä¹˜æ³•\n4.é™¤æ³•\n5.å¹‚çš„è¿ç®—\n6.å¼€æ–¹è¿ç®—\n0.è¿”å›\n");
+		printf("è¯·é€‰æ‹©:");
 		scanf("%d",&input);
 		
 		switch(input)
 		{
 			case 1:
-				printf("\n*¸ñÊ½ a+b *\nÇëÊäÈë:");
+				printf("\n*æ ¼å¼ a+b *\nè¯·è¾“å…¥:");
 				scanf("%lf+%lf",&a,&b);
 				Add = a+b;
-				printf("\n\nºÍÎª:%lf\n",Add);
+				printf("\n\nå’Œä¸º:%lf\n",Add);
 				break;
 				
 			case 2:
-				printf("\n*¸ñÊ½ a-b *\nÇëÊäÈë:");
+				printf("\n*æ ¼å¼ a-b *\nè¯·è¾“å…¥:");
 				scanf("%lf-%lf",&a,&b);
 				Add = a-b;
-				printf("\n\n²îÎª:%lf\n",Add);
+				printf("\n\nå·®ä¸º:%lf\n",Add);
 				break;
 				
 			case 3:
-				printf("\n*¸ñÊ½ a*b *\nÇëÊäÈë:");
+				printf("\n*æ ¼å¼ a*b *\nè¯·è¾“å…¥:");
 				scanf("%lf*%lf",&a,&b);
 				Add = a*b;
-				printf("\n\n»ıÎª:%lf\n",Add);
+				printf("\n\nç§¯ä¸º:%lf\n",Add);
 				break;
 				
 			case 4:
-				printf("\n*¸ñÊ½ a/b *\nÇëÊäÈë:");
+				printf("\n*æ ¼å¼ a/b *\nè¯·è¾“å…¥:");
 				scanf("%lf/%lf",&a,&b);
 				Add = a/b;
-				printf("\n\nÉÌÎª:%lf\n",Add);
+				printf("\n\nå•†ä¸º:%lf\n",Add);
 				break;
 			case 5:
-				printf("\n*¸ñÊ½ a^b (ÒâÎªaµÄb´Î·½)*\nÇëÊäÈë:");
+				printf("\n*æ ¼å¼ a^b (æ„ä¸ºaçš„bæ¬¡æ–¹)*\nè¯·è¾“å…¥:");
 				scanf("%lf^%lf",&a,&b);
 				Add = pow(a,b);
-				printf("\n\n½á¹ûÎª:%lf\n",Add);
+				printf("\n\nç»“æœä¸º:%lf\n",Add);
 				break;
 				
 			case 6:
-				printf("\n*¸ñÊ½ a>>b (ÒâÎªaµÄb´Î·½¸ù)*\nÇëÊäÈë:");
+				printf("\n*æ ¼å¼ a>>b (æ„ä¸ºaçš„bæ¬¡æ–¹æ ¹)*\nè¯·è¾“å…¥:");
 				scanf("%lf>>%lf",&a,&b);
 				b = 1/b;
 				Add = pow(a,b);
-				printf("\n\n½á¹ûÎª:%lf\n",Add);
+				printf("\n\nç»“æœä¸º:%lf\n",Add);
 				break;
 			default:break;
 		 } 
@@ -1604,21 +1604,21 @@ void Tools_computer()
 }
 void Tools_Group()
 {
-	puts("===================ÊıÁĞ´¦Àí===================");
+	puts("===================æ•°åˆ—å¤„ç†===================");
 	int max;
 	double a[300];
-	//Ñ¡ÔñÊıÁĞ´óĞ¡ 
-	printf("\nÄãĞèÒª´¦Àí¶àÉÙ¸öÊı(²»´óÓÚ300¸ö)£º");
+	//é€‰æ‹©æ•°åˆ—å¤§å° 
+	printf("\nä½ éœ€è¦å¤„ç†å¤šå°‘ä¸ªæ•°(ä¸å¤§äº300ä¸ª)ï¼š");
 	scanf("%d",&max);
-	//¸øÃ¿¸öÊı¸³Öµ 
-	printf("\n½ÓÏÂÀ´¸ø%d¸öÊı¸³Öµ£º\n",max);
+	//ç»™æ¯ä¸ªæ•°èµ‹å€¼ 
+	printf("\næ¥ä¸‹æ¥ç»™%dä¸ªæ•°èµ‹å€¼ï¼š\n",max);
 	int count;
 	for(count=0;count<max;count++)
 	{
 		printf(" a[%d] =",count);
 		scanf("%lf",&a[count]);
 	}
-	//Ã°Åİ·¨ÅÅĞò 
+	//å†’æ³¡æ³•æ’åº 
 	double iTemp;
 	int i,j;
 	for(i=1;i<max;i++)
@@ -1633,10 +1633,10 @@ void Tools_Group()
 			}
 		}
 	}
-	printf("\nÅÅĞòºóµÄÊıÎª£º\n");
+	printf("\næ’åºåçš„æ•°ä¸ºï¼š\n");
 	for(count=0;count<max;count++)
 	{
-		printf("µÚ%d¸ö£º%lf",count+1,a[count]);
+		printf("ç¬¬%dä¸ªï¼š%lf",count+1,a[count]);
 		if((count+1)%2==0)
 		{
 			printf("\n");
@@ -1647,19 +1647,19 @@ void Tools_Group()
 		}
 	}
 	printf("\n");
-	//ÇóÆ½¾ùÊı
+	//æ±‚å¹³å‡æ•°
 	double Mean; 
 	for(count=0;count<max;count++)
 	{
 		Mean += a[count];
 	}
 	Mean /= max*1.0;
-	printf("ÕâĞ©ÊıµÄÆ½¾ùÊıÊÇ£º%lf\n\n",Mean);
-	//Çó×éÖĞÖµ 
+	printf("è¿™äº›æ•°çš„å¹³å‡æ•°æ˜¯ï¼š%lf\n\n",Mean);
+	//æ±‚ç»„ä¸­å€¼ 
 	double midpoint;
 	midpoint = (a[max-1] - a[0]) /2.0;
-	printf("ÕâĞ©ÊıµÄ×éÖĞÖµÊÇ£º%lf\n\n",midpoint);
-	//ÇóÖĞÎ»Êı
+	printf("è¿™äº›æ•°çš„ç»„ä¸­å€¼æ˜¯ï¼š%lf\n\n",midpoint);
+	//æ±‚ä¸­ä½æ•°
 	double median; 
 	if(max%2==0)
 	{
@@ -1669,7 +1669,7 @@ void Tools_Group()
 	{
 		median = a[(max-1)/2];
 	}
-	printf("ÕâĞ©Ê÷µÄÖĞÎ»ÊıÊÇ£º%lf\n\n",median);
+	printf("è¿™äº›æ•°çš„ä¸­ä½æ•°æ˜¯ï¼š%lf\n\n",median);
 	
 	printf("\n");
 	system("pause");
